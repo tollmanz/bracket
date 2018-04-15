@@ -1,0 +1,15 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "description": "Organize and score NHL playoff bracket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.5",
+    "yargs": "^11.0.0"
+  }
+}
