@@ -3,7 +3,7 @@ const _ = require('lodash');
 const data = require('./data');
 
 const POINTS_FOR_PICK = 1;
-const POINTS_FOR_GAMES = 1;
+const POINTS_FOR_GAMES = 2;
 
 const getCompetitorChoiceForMatchup = (competitor, choices, matchupName) => {
   const competitorChoices = _.find(choices, { competitor }).choices || {};
