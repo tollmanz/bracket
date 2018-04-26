@@ -49,8 +49,8 @@
     "top": "BOS",
     "bottom": "TOR",
     "result": {
-      "winner": "",
-      "games": 0
+      "winner": "BOS",
+      "games": 7
     }
   },
   {
