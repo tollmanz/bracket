@@ -70,5 +70,41 @@
       "winner": "PIT",
       "games": 6
     }
+  },
+  {
+    "name": "WC5",
+    "top": "NSH",
+    "bottom": "WPG",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "WC6",
+    "top": "VGK",
+    "bottom": "SJS",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC5",
+    "top": "TBL",
+    "bottom": "BOS",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC6",
+    "top": "WAS",
+    "bottom": "PIT",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
   }
 ]
