@@ -94,8 +94,8 @@
     "top": "TBL",
     "bottom": "BOS",
     "result": {
-      "winner": "",
-      "games": 0
+      "winner": "TBL",
+      "games": 5
     }
   },
   {
