@@ -61,6 +61,16 @@
         "name": "EC6",
         "pick": "WAS",
         "games": 7
+      },
+      {
+        "name": "WC7",
+        "pick": "WPG",
+        "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "TBL",
+        "games": 6
       }
     ]
   },
@@ -191,6 +201,16 @@
         "name": "EC6",
         "pick": "PIT",
         "games": 6
+      },
+      {
+        "name": "WC7",
+        "pick": "VGK",
+        "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "TBL",
+        "games": 7
       }
     ]
   },
