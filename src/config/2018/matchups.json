@@ -106,5 +106,23 @@
       "winner": "WAS",
       "games": 6
     }
+  },
+  {
+    "name": "WC7",
+    "top": "WPG",
+    "bottom": "VGK",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC7",
+    "top": "TBL",
+    "bottom": "WAS",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
   }
 ]
