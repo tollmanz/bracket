@@ -1,7 +1,5 @@
 const _ = require('lodash');
 
-const data = require('./data');
-
 const POINTS_FOR_PICK = {
   1: 1,
   2: 3,
