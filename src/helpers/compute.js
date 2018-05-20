@@ -1,7 +1,5 @@
 const _ = require('lodash');
 
-const data = require('./data');
-
 const POINTS_FOR_PICK = {
   1: 1,
   2: 3,
@@ -46,8 +44,8 @@ const getCompetitorResultForMatchup = (competitor, matchup, choices, matchups) =
   const results = getMatchupResult(matchup, matchups);
 
   return {
-    pick: (competitorChoice.pick === results.winner),
-    games: (competitorChoice.games === results.games)
+    pick: (competitorChoice && competitorChoice.pick === results.winner),
+    games: ( competitorChoice && competitorChoice.games === results.games)
   }
 };
 
