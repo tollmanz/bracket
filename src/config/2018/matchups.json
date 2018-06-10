@@ -124,5 +124,14 @@
       "winner": "WAS",
       "games": 7
     }
+  },
+  {
+    "name": "SC8",
+    "top": "VGK",
+    "bottom": "WAS",
+    "result": {
+      "winner": "WAS",
+      "games": 5
+    }
   }
 ]

@@ -71,6 +71,11 @@
         "name": "EC7",
         "pick": "TBL",
         "games": 6
+      },
+      {
+        "name": "SC8",
+        "pick": "WAS",
+        "games": 6
       }
     ]
   },
@@ -146,6 +151,11 @@
         "name": "EC7",
         "pick": "WAS",
         "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "VGK",
+        "games": 5
       }
     ]
   },
@@ -221,6 +231,11 @@
         "name": "EC7",
         "pick": "TBL",
         "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "VGK",
+        "games": 4
       }
     ]
   },
@@ -295,6 +310,11 @@
       {
         "name": "EC7",
         "pick": "WAS",
+        "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "VGK",
         "games": 7
       }
     ]
@@ -371,6 +391,11 @@
         "name": "EC7",
         "pick": "WAS",
         "games": 6
+      },
+      {
+        "name": "SC8",
+        "pick": "VGK",
+        "games": 6
       }
     ]
   },
@@ -445,6 +470,11 @@
       {
         "name": "EC7",
         "pick": "TBL",
+        "games": 6
+      },
+      {
+        "name": "SC8",
+        "pick": "VGK",
         "games": 6
       }
     ]
