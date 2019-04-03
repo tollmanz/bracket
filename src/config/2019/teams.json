@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "name": "Tampa Bay Lightning",
+    "short": "TBL"
+  },
+  {
+    "name": "Washington Capitals",
+    "short": "WAS"
+  },
+  {
+    "name": "New York Islanders",
+    "short": "NYI"
+  },
+  {
+    "name": "Boston Bruins",
+    "short": "BOS"
+  },
+  {
+    "name": "Toronto Maple Leafs",
+    "short": "TOR"
+  },
+  {
+    "name": "Winnipeg Jets",
+    "short": "WPJ"
+  },
+  {
+    "name": "Nashville Predators",
+    "short": "NSH"
+  },
+  {
+    "name": "St. Louis Blues",
+    "short": "STL"
+  },
+  {
+    "name": "Calgary Flames",
+    "short": "CLG"
+  },
+  {
+    "name": "San Jose Sharks",
+    "short": "SJS"
+  },
+  {
+    "name": "Las Vegas Golden Knights",
+    "short": "VGK"
+  },
+  {
+    "name": "",
+    "short": ""
+  },
+  {
+    "name": "",
+    "short": ""
+  },
+  {
+    "name": "",
+    "short": ""
+  },
+  {
+    "name": "",
+    "short": ""
+  },
+  {
+    "name": "",
+    "short": ""
+  }
+]
