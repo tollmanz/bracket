@@ -30,7 +30,7 @@ const getPointsForGame = (game) => {
 };
 
 const getCompetitorChoiceForMatchup = (competitor, choices, matchupName) => {
-  const competitorChoices = _.find(choices, { competitor }).choices || {};
+  const competitorChoices = _.get(_.find(choices, { competitor }), 'choices') || {};
   return _.find(competitorChoices, { name: matchupName })
 };
 
