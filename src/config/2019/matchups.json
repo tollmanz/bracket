@@ -1,1 +1,74 @@
-[]
+[
+  {
+    "name": "WC1",
+    "top": "NSH",
+    "bottom": "DAL",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "WC2",
+    "top": "WPG",
+    "bottom": "STL",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "WC3",
+    "top": "CGY",
+    "bottom": "COL",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "WC3",
+    "top": "SJS",
+    "bottom": "VGK",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC1",
+    "top": "TBL",
+    "bottom": "CBJ",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC2",
+    "top": "BOS",
+    "bottom": "TOR",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC3",
+    "top": "WSH",
+    "bottom": "CAR",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC4",
+    "top": "NYI",
+    "bottom": "PIT",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  }
+]
