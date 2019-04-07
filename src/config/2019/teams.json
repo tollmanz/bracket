@@ -5,7 +5,7 @@
   },
   {
     "name": "Washington Capitals",
-    "short": "WAS"
+    "short": "WSH"
   },
   {
     "name": "New York Islanders",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Winnipeg Jets",
-    "short": "WPJ"
+    "short": "WPG"
   },
   {
     "name": "Nashville Predators",
@@ -33,7 +33,7 @@
   },
   {
     "name": "Calgary Flames",
-    "short": "CLG"
+    "short": "CGY"
   },
   {
     "name": "San Jose Sharks",
@@ -44,23 +44,23 @@
     "short": "VGK"
   },
   {
-    "name": "",
-    "short": ""
+    "name": "Dallas Stars",
+    "short": "DAL"
   },
   {
-    "name": "",
-    "short": ""
+    "name": "Colorado Avalanche",
+    "short": "COL"
   },
   {
-    "name": "",
-    "short": ""
+    "name": "Columbus Blue Jackets",
+    "short": "CBJ"
   },
   {
-    "name": "",
-    "short": ""
+    "name": "Carolina Hurricanes",
+    "short": "CAR"
   },
   {
-    "name": "",
-    "short": ""
+    "name": "Pittsburgh Penguins",
+    "short": "PIT"
   }
 ]
