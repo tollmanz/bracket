@@ -43,5 +43,50 @@
         "games": 6
       }
     ]
+  },
+  {
+    "competitor": "@vegasgeek",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "DAL",
+        "games": 6
+      },
+      {
+        "name": "WC2",
+        "pick": "STL",
+        "games": 6
+      },
+      {
+        "name": "WC3",
+        "pick": "CGY",
+        "games": 5
+      },
+      {
+        "name": "WC4",
+        "pick": "VGK",
+        "games": 6
+      },
+      {
+        "name": "EC1",
+        "pick": "TBL",
+        "games": 5
+      },
+      {
+        "name": "EC2",
+        "pick": "BOS",
+        "games": 6
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 7
+      },
+      {
+        "name": "EC4",
+        "pick": "NYI",
+        "games": 6
+      }
+    ]
   }
 ]
