@@ -178,5 +178,50 @@
         "games": 7
       }
     ]
+  },
+  {
+    "competitor": "@TTollman",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "NSH",
+        "games": 5
+      },
+      {
+        "name": "WC2",
+        "pick": "STL",
+        "games": 6
+      },
+      {
+        "name": "WC3",
+        "pick": "CGY",
+        "games": 5
+      },
+      {
+        "name": "WC4",
+        "pick": "SJS",
+        "games": 7
+      },
+      {
+        "name": "EC1",
+        "pick": "TBL",
+        "games": 5
+      },
+      {
+        "name": "EC2",
+        "pick": "TOR",
+        "games": 6
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 6
+      },
+      {
+        "name": "EC4",
+        "pick": "PIT",
+        "games": 5
+      },
+    ]
   }
 ]
