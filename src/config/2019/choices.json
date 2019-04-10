@@ -88,5 +88,50 @@
         "games": 6
       }
     ]
+  },
+  {
+    "competitor": "@desrosj",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "DAL",
+        "games": 7
+      },
+      {
+        "name": "WC2",
+        "pick": "STL",
+        "games": 7
+      },
+      {
+        "name": "WC3",
+        "pick": "CGY",
+        "games": 6
+      },
+      {
+        "name": "WC4",
+        "pick": "VGK",
+        "games": 7
+      },
+      {
+        "name": "EC1",
+        "pick": "TBL",
+        "games": 5
+      },
+      {
+        "name": "EC2",
+        "pick": "BOS",
+        "games": 5
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 6
+      },
+      {
+        "name": "EC4",
+        "pick": "PIT",
+        "games": 5
+      }
+    ]
   }
 ]
