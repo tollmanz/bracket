@@ -10,12 +10,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Hockey</h1>
+          <h1 className="App-title">Blame Hockey</h1>
         </header>
         <ol className="App-intro">
-			{results.map ( ( r, i ) => {
-				return <li key={ "result-" + i } > {r.name} {r.score} </li> 
-			})}
+          {results.map ( ( r, i ) => {
+            return <li key={ "result-" + i } > {r.name} {r.score} </li>
+          })}
         </ol>
       </div>
     );
