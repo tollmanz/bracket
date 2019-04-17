@@ -23,7 +23,7 @@ Keep track of NHL playoff picks and score
 I'm just labelling them `{conference}{seriesNumber}` (e.g., `WC1`, `EC1`).
 1. When the series is over, fill out the `results` property of the matchup
 1. Add new competitors to `config/{year}/competitors.json`
-1. Add new choices to ``config/{year}/choices.json`
+1. Add new choices to `config/{year}/choices.json`
 
 ## Deploying to [blame.hockey](https://blame.hockey)
 
