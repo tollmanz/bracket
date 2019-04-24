@@ -1,11 +1,13 @@
 const { computeCompetitorScore } = require('../helpers/compute');
 const data = require('../helpers/data');
+const YEAR = require('../config/year');
 
-const computeResults = () => {
-  return data.COMPETITORS.map(competitor => {
+const computeResults = ( year = YEAR ) => {
+  const yearData = data.GET_YEAR_DATA( year );
+  return yearData.COMPETITORS.map(competitor => {
     return {
       name: competitor.twitter,
-      score: computeCompetitorScore(competitor.twitter, data.CHOICES, data.MATCHUPS)
+      score: computeCompetitorScore(competitor.twitter, yearData.CHOICES, yearData.MATCHUPS)
     };
   });
 };
