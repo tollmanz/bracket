@@ -4,8 +4,8 @@
     "top": "NSH",
     "bottom": "DAL",
     "result": {
-      "winner": "",
-      "games": 0
+      "winner": "DAL",
+      "games": 6
     }
   },
   {
@@ -13,8 +13,8 @@
     "top": "WPG",
     "bottom": "STL",
     "result": {
-      "winner": "",
-      "games": 0
+      "winner": "STL",
+      "games": 6
     }
   },
   {
@@ -22,8 +22,8 @@
     "top": "CGY",
     "bottom": "COL",
     "result": {
-      "winner": "",
-      "games": 0
+      "winner": "COL",
+      "games": 5
     }
   },
   {
