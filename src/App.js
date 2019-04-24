@@ -15,7 +15,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <header className="App-header">
-            <h1 className="App-title">Blame Hockey</h1>
+            <h1 className="App-title">BLAME HOCKEY</h1>
             <nav>
               <Link style={linkStyle} to="/">Current Year</Link>
               {YEARS.map(y => {
