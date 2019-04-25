@@ -70,5 +70,41 @@
       "winner": "NYI",
       "games": 4
     }
+  },
+  {
+    "name": "WC5",
+    "top": "DAL",
+    "bottom": "STL",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "WC6",
+    "top": "COL",
+    "bottom": "SJS",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC5",
+    "top": "CBJ",
+    "bottom": "BOS",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC6",
+    "top": "CAR",
+    "bottom": "NYI",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
   }
 ]
