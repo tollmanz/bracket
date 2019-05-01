@@ -311,6 +311,26 @@
         "name": "WC4",
         "pick": "VGK",
         "games": 7
+      },
+      {
+        "name": "WC5",
+        "pick": "STL",
+        "games": 7
+      },
+      {
+        "name": "WC6",
+        "pick": "SJS",
+        "games": 6
+      },
+      {
+        "name": "EC5",
+        "pick": "BOS",
+        "games": 6
+      },
+      {
+        "name": "EC6",
+        "pick": "NYI",
+        "games": 6
       }
     ]
   },
