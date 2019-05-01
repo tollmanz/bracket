@@ -41,6 +41,26 @@
         "name": "EC4",
         "pick": "PIT",
         "games": 6
+      },
+      {
+        "name": "WC5",
+        "pick": "DAL",
+        "games": 7
+      },
+      {
+        "name": "WC6",
+        "pick": "COL",
+        "games": 6
+      },
+      {
+        "name": "EC5",
+        "pick": "CBJ",
+        "games": 5
+      },
+      {
+        "name": "EC6",
+        "pick": "NYI",
+        "games": 6
       }
     ]
   },
