@@ -496,6 +496,26 @@
         "name": "EC4",
         "pick": "PIT",
         "games": 6
+      },
+            {
+        "name": "WC5",
+        "pick": "STL",
+        "games": 6
+      },
+      {
+        "name": "WC6",
+        "pick": "SJS",
+        "games": 5
+      },
+      {
+        "name": "EC5",
+        "pick": "BOS",
+        "games": 7
+      },
+      {
+        "name": "EC6",
+        "pick": "NYI",
+        "games": 6
       }
     ]
   },
@@ -539,6 +559,26 @@
       },
       {
         "name": "EC4",
+        "pick": "NYI",
+        "games": 7
+      },
+      {
+        "name": "WC5",
+        "pick": "STL",
+        "games": 6
+      },
+      {
+        "name": "WC6",
+        "pick": "SJS",
+        "games": 7
+      },
+      {
+        "name": "EC5",
+        "pick": "CBJ",
+        "games": 6
+      },
+      {
+        "name": "EC6",
         "pick": "NYI",
         "games": 7
       }
