@@ -103,8 +103,8 @@
     "top": "CAR",
     "bottom": "NYI",
     "result": {
-      "winner": "",
-      "games": 0
+      "winner": "CAR",
+      "games": 4
     }
   }
 ]
