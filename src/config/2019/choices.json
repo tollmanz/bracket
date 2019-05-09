@@ -321,6 +321,16 @@
         "name": "EC6",
         "pick": "NYI",
         "games": 6
+      },
+      {
+        "name": "WC7",
+        "pick": "STL",
+        "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "BOS",
+        "games": 5
       }
     ]
   },
