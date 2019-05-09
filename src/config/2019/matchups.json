@@ -106,5 +106,23 @@
       "winner": "CAR",
       "games": 4
     }
+  },
+  {
+    "name": "WC7",
+    "top": "STL",
+    "bottom": "SJS",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "EC7",
+    "top": "BOS",
+    "bottom": "CAR",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
   }
 ]
