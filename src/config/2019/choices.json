@@ -61,6 +61,16 @@
         "name": "EC6",
         "pick": "NYI",
         "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "BOS",
+        "games": 6
+      },
+      {
+        "name": "WC7",
+        "pick": "SJS",
+        "games": 7
       }
     ]
   },
@@ -125,6 +135,16 @@
       {
         "name": "EC6",
         "pick": "NYI",
+        "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "CAR",
+        "games": 6
+      },
+      {
+        "name": "WC7",
+        "pick": "STL",
         "games": 6
       }
     ]
@@ -191,6 +211,16 @@
         "name": "EC6",
         "pick": "NYI",
         "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "BOS",
+        "games": 6
+      },
+      {
+        "name": "WC7",
+        "pick": "STL",
+        "games": 7
       }
     ]
   },
@@ -255,6 +285,16 @@
       {
         "name": "EC6",
         "pick": "CAR",
+        "games": 7
+      },
+      {
+        "name": "EC7",
+        "pick": "BOS",
+        "games": 4
+      },
+      {
+        "name": "WC7",
+        "pick": "STL",
         "games": 7
       }
     ]
@@ -471,6 +511,16 @@
         "name": "EC6",
         "pick": "NYI",
         "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "BOS",
+        "games": 6
+      },
+      {
+        "name": "WC7",
+        "pick": "SJS",
+        "games": 7
       }
     ]
   },
@@ -536,6 +586,16 @@
         "name": "EC6",
         "pick": "NYI",
         "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "BOS",
+        "games": 7
+      },
+      {
+        "name": "WC7",
+        "pick": "SJS",
+        "games": 6
       }
     ]
   },
@@ -600,6 +660,16 @@
       {
         "name": "EC6",
         "pick": "NYI",
+        "games": 7
+      },
+      {
+        "name": "EC7",
+        "pick": "CAR",
+        "games": 6
+      },
+      {
+        "name": "WC7",
+        "pick": "SJS",
         "games": 7
       }
     ]
