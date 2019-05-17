@@ -121,8 +121,8 @@
     "top": "BOS",
     "bottom": "CAR",
     "result": {
-      "winner": "",
-      "games": 0
+      "winner": "BOS",
+      "games": 4
     }
   }
 ]
