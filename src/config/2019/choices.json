@@ -71,6 +71,11 @@
         "name": "WC7",
         "pick": "SJS",
         "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "BOS",
+        "games": 6
       }
     ]
   },
@@ -144,6 +149,11 @@
       },
       {
         "name": "WC7",
+        "pick": "STL",
+        "games": 6
+      },
+      {
+        "name": "SC8",
         "pick": "STL",
         "games": 6
       }
@@ -221,6 +231,11 @@
         "name": "WC7",
         "pick": "STL",
         "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "BOS",
+        "games": 5
       }
     ]
   },
@@ -295,6 +310,11 @@
       {
         "name": "WC7",
         "pick": "STL",
+        "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "BOS",
         "games": 7
       }
     ]
@@ -371,6 +391,11 @@
         "name": "EC7",
         "pick": "BOS",
         "games": 5
+      },
+      {
+        "name": "SC8",
+        "pick": "STL",
+        "games": 6
       }
     ]
   },
@@ -446,6 +471,11 @@
         "name": "EC7",
         "pick": "BOS",
         "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "BOS",
+        "games": 6
       }
     ]
   },
@@ -520,6 +550,11 @@
       {
         "name": "WC7",
         "pick": "SJS",
+        "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "STL",
         "games": 7
       }
     ]
@@ -596,6 +631,11 @@
         "name": "WC7",
         "pick": "SJS",
         "games": 6
+      },
+      {
+        "name": "SC8",
+        "pick": "STL",
+        "games": 5
       }
     ]
   },
@@ -671,6 +711,11 @@
         "name": "WC7",
         "pick": "SJS",
         "games": 7
+      },
+      {
+        "name": "SC8",
+        "pick": "STL",
+        "games": 6
       }
     ]
   }
