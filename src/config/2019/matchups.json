@@ -124,5 +124,14 @@
       "winner": "BOS",
       "games": 4
     }
+  },
+  {
+    "name": "SC8",
+    "top": "BOS",
+    "bottom": "STL",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
   }
 ]
