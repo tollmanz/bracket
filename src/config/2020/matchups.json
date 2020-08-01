@@ -1,0 +1,74 @@
+[
+  {
+    "name": "QR1",
+    "top": "CGY",
+    "bottom": "WPG",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "QR2",
+    "top": "VAN",
+    "bottom": "STL",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "QR3",
+    "top": "NSH",
+    "bottom": "ARI",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "QR4",
+    "top": "EDM",
+    "bottom": "CHI",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "QR5",
+    "top": "TOR",
+    "bottom": "CBJ",
+    "result": {
+      "winner": "",
+      "games": 0 
+    }
+  },
+  {
+    "name": "QR6",
+    "top": "NYI",
+    "bottom": "FLA",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "QR7",
+    "top": "CAR",
+    "bottom": "NYR",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  },
+  {
+    "name": "QR8",
+    "top": "PIT",
+    "bottom": "MTL",
+    "result": {
+      "winner": "",
+      "games": 0
+    }
+  }
+]
