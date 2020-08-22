@@ -1,2 +1,722 @@
 [
+  {
+    "competitor": "@thoronas",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "VGK",
+        "games": 6
+      },
+      {
+        "name": "WC2",
+        "pick": "COL",
+        "games": 5
+      },
+      {
+        "name": "WC3",
+        "pick": "CGY",
+        "games": 7
+      },
+      {
+        "name": "WC4",
+        "pick": "STL",
+        "games": 7
+      },
+      {
+        "name": "EC1",
+        "pick": "PHI",
+        "games": 5
+      },
+      {
+        "name": "EC2",
+        "pick": "TBL",
+        "games": 4
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 7
+      },
+      {
+        "name": "EC4",
+        "pick": "CAR",
+        "games": 6
+      },
+      {
+        "name": "WC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  },
+  {
+    "competitor": "@vegasgeek",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "VGK",
+        "games": 6
+      },
+      {
+        "name": "WC2",
+        "pick": "COL",
+        "games": 6
+      },
+      {
+        "name": "WC3",
+        "pick": "CGY",
+        "games": 5
+      },
+      {
+        "name": "WC4",
+        "pick": "STL",
+        "games": 7
+      },
+      {
+        "name": "EC1",
+        "pick": "PHI",
+        "games": 6
+      },
+      {
+        "name": "EC2",
+        "pick": "CBJ",
+        "games": 6
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 5
+      },
+      {
+        "name": "EC4",
+        "pick": "BOS",
+        "games": 7
+      },
+      {
+        "name": "WC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  },
+  {
+    "competitor": "@desrosj",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "VGK",
+        "games": 7
+      },
+      {
+        "name": "WC2",
+        "pick": "COL",
+        "games": 5
+      },
+      {
+        "name": "WC3",
+        "pick": "DAL",
+        "games": 6
+      },
+      {
+        "name": "WC4",
+        "pick": "VAN",
+        "games": 7
+      },
+      {
+        "name": "EC1",
+        "pick": "PHI",
+        "games": 5
+      },
+      {
+        "name": "EC2",
+        "pick": "TBL",
+        "games": 6
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 7
+      },
+      {
+        "name": "EC4",
+        "pick": "BOS",
+        "games": 6
+      },
+      {
+        "name": "WC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  },
+  {
+    "competitor": "@aaronjorbin",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "CHI",
+        "games": 5
+      },
+      {
+        "name": "WC2",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC3",
+        "pick": "CGY",
+        "games": 6
+      },
+      {
+        "name": "WC4",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC1",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC2",
+        "pick": "CBJ",
+        "games": 6
+      },
+      {
+        "name": "EC3",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC4",
+        "pick": "BOS",
+        "games": 5
+      },
+      {
+        "name": "WC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  },
+  {
+    "competitor": "@TTollman",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "CHI",
+        "games": 7
+      },
+      {
+        "name": "WC2",
+        "pick": "COL",
+        "games": 5
+      },
+      {
+        "name": "WC3",
+        "pick": "DAL",
+        "games": 6
+      },
+      {
+        "name": "WC4",
+        "pick": "STL",
+        "games": 6
+      },
+      {
+        "name": "EC1",
+        "pick": "PHI",
+        "games": 5
+      },
+      {
+        "name": "EC2",
+        "pick": "TBL",
+        "games": 6
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 5
+      },
+      {
+        "name": "EC4",
+        "pick": "BOS",
+        "games": 7
+      },
+      {
+        "name": "WC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  },
+  {
+    "competitor": "@tollmanz",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "NSH",
+        "games": 6
+      },
+      {
+        "name": "WC2",
+        "pick": "STL",
+        "games": 5
+      },
+      {
+        "name": "WC3",
+        "pick": "CGY",
+        "games": 4
+      },
+      {
+        "name": "WC4",
+        "pick": "VGK",
+        "games": 6
+      },
+      {
+        "name": "EC1",
+        "pick": "TBL",
+        "games": 4
+      },
+      {
+        "name": "EC2",
+        "pick": "BOS",
+        "games": 7
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 5
+      },
+      {
+        "name": "EC4",
+        "pick": "NYI",
+        "games": 7
+      },
+      {
+        "name": "WC5",
+        "pick": "STL",
+        "games": 5
+      },
+      {
+        "name": "WC6",
+        "pick": "SJS",
+        "games": 6
+      },
+      {
+        "name": "EC5",
+        "pick": "BOS",
+        "games": 7
+      },
+      {
+        "name": "EC6",
+        "pick": "NYI",
+        "games": 6
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  },
+  {
+    "competitor": "@nacin",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC2",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC3",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC4",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC1",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC2",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC3",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC4",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  },
+  {
+    "competitor": "@brothernacin",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC2",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC3",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC4",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC1",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC2",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC3",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC4",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  },
+  {
+    "competitor": "@cklosowski",
+    "choices": [
+      {
+        "name": "WC1",
+        "pick": "VGK",
+        "games": 5
+      },
+      {
+        "name": "WC2",
+        "pick": "ARI",
+        "games": 6
+      },
+      {
+        "name": "WC3",
+        "pick": "DAL",
+        "games": 5
+      },
+      {
+        "name": "WC4",
+        "pick": "STL",
+        "games": 7
+      },
+      {
+        "name": "EC1",
+        "pick": "PHI",
+        "games": 5
+      },
+      {
+        "name": "EC2",
+        "pick": "TBL",
+        "games": 6
+      },
+      {
+        "name": "EC3",
+        "pick": "WSH",
+        "games": 7
+      },
+      {
+        "name": "EC4",
+        "pick": "CAR",
+        "games": 7
+      },
+      {
+        "name": "WC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC5",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC6",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "EC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "WC7",
+        "pick": "",
+        "games": 0
+      },
+      {
+        "name": "SC8",
+        "pick": "",
+        "games": 0
+      }
+    ]
+  }
 ]
