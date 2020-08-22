@@ -70,5 +70,77 @@
       "winner": "",
       "games": 0
     }
+  },
+  {
+    "name": "WC1",
+    "top": "VGK",
+    "bottom": "CHI",
+    "result": {
+      "winner": "VGK",
+      "games": 5
+    }
+  },
+  {
+    "name": "WC2",
+    "top": "COL",
+    "bottom": "ARI",
+    "result": {
+      "winner": "COL",
+      "games": 5
+    }
+  },
+  {
+    "name": "WC3",
+    "top": "CGY",
+    "bottom": "DAL",
+    "result": {
+      "winner": "DAL",
+      "games": 6
+    }
+  },
+  {
+    "name": "WC4",
+    "top": "VAN",
+    "bottom": "STL",
+    "result": {
+      "winner": "VAN",
+      "games": 6
+    }
+  },
+  {
+    "name": "EC1",
+    "top": "PHI",
+    "bottom": "CAN",
+    "result": {
+      "winner": "PHI",
+      "games": 6
+    }
+  },
+  {
+    "name": "EC2",
+    "top": "TBL",
+    "bottom": "CBJ",
+    "result": {
+      "winner": "TBL",
+      "games": 5
+    }
+  },
+  {
+    "name": "EC3",
+    "top": "WSH",
+    "bottom": "NYI",
+    "result": {
+      "winner": "NYI",
+      "games": 5
+    }
+  },
+  {
+    "name": "EC4",
+    "top": "BOS",
+    "bottom": "CAR",
+    "result": {
+      "winner": "BOS",
+      "games": 5
+    }
   }
 ]
