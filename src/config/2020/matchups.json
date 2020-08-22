@@ -142,41 +142,5 @@
       "winner": "BOS",
       "games": 5
     }
-  },
-  {
-    "name": "WC5",
-    "top": "VGK",
-    "bottom": "VAN",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "WC6",
-    "top": "COL",
-    "bottom": "DAL",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "EC5",
-    "top": "PHI",
-    "bottom": "NYI",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "EC6",
-    "top": "TBL",
-    "bottom": "BOS",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
   }
 ]
