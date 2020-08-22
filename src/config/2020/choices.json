@@ -404,32 +404,32 @@
     "choices": [
       {
         "name": "WC1",
-        "pick": "NSH",
-        "games": 6
+        "pick": "CHI",
+        "games": 7
       },
       {
         "name": "WC2",
-        "pick": "STL",
+        "pick": "COL",
         "games": 5
       },
       {
         "name": "WC3",
-        "pick": "CGY",
-        "games": 4
-      },
-      {
-        "name": "WC4",
-        "pick": "VGK",
+        "pick": "DAL",
         "games": 6
       },
       {
+        "name": "WC4",
+        "pick": "VAN",
+        "games": 7
+      },
+      {
         "name": "EC1",
-        "pick": "TBL",
-        "games": 4
+        "pick": "PHI",
+        "games": 6
       },
       {
         "name": "EC2",
-        "pick": "BOS",
+        "pick": "CBJ",
         "games": 7
       },
       {
@@ -439,28 +439,28 @@
       },
       {
         "name": "EC4",
-        "pick": "NYI",
-        "games": 7
+        "pick": "CAR",
+        "games": 6
       },
       {
         "name": "WC5",
-        "pick": "STL",
-        "games": 5
+        "pick": "",
+        "games": 0
       },
       {
         "name": "WC6",
-        "pick": "SJS",
-        "games": 6
+        "pick": "",
+        "games": 0
       },
       {
         "name": "EC5",
-        "pick": "BOS",
-        "games": 7
+        "pick": "",
+        "games": 0
       },
       {
         "name": "EC6",
-        "pick": "NYI",
-        "games": 6
+        "pick": "",
+        "games": 0
       },
       {
         "name": "EC7",
@@ -684,23 +684,23 @@
       },
       {
         "name": "WC5",
-        "pick": "",
-        "games": 0
+        "pick": "VGK",
+        "games": 5
       },
       {
         "name": "WC6",
-        "pick": "",
-        "games": 0
+        "pick": "COL",
+        "games": 7
       },
       {
         "name": "EC5",
-        "pick": "",
-        "games": 0
+        "pick": "PHI",
+        "games": 5
       },
       {
         "name": "EC6",
-        "pick": "",
-        "games": 0
+        "pick": "TBL",
+        "games": 6
       },
       {
         "name": "EC7",
