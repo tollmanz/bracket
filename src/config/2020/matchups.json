@@ -178,5 +178,14 @@
       "winner": "TBL",
       "games": 5
     }
+  },
+  {
+    "name": "WC7",
+    "top": "VGK",
+    "bottom": "DAL",
+    "result": {
+      "winner": "DAL",
+      "games": 5
+    }
   }
 ]
