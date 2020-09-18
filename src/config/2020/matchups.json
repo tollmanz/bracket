@@ -187,5 +187,15 @@
       "winner": "DAL",
       "games": 5
     }
+  },
+  {
+    "name": "EC7",
+    "top": "TBL",
+    "bottom": "NYI",
+    "result": {
+      "winner": "TBL",
+      "games": 6
+    }
   }
+
 ]
