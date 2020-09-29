@@ -196,6 +196,14 @@
       "winner": "TBL",
       "games": 6
     }
+  },
+  {
+    "name": "SC8",
+    "top": "TBL",
+    "bottom": "DAL",
+    "result": {
+      "winner": "TBL",
+      "games": 6
+    }
   }
-
 ]
