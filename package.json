@@ -16,8 +16,8 @@
   "dependencies": {
     "lodash": "4.17.20",
     "micro": "9.3.4",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.4",
     "yargs": "16.0.3"
