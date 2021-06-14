@@ -20,7 +20,7 @@
     "react-dom": "16.14.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "3.4.4",
-    "yargs": "16.2.0"
+    "yargs": "17.0.1"
   },
   "browserslist": [
     ">0.2%",
