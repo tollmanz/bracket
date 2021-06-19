@@ -144,13 +144,13 @@
       },
       {
         "name": "EC7",
-        "pick": "",
-        "games": 0
+        "pick": "TBL",
+        "games": 6
       },
       {
         "name": "WC7",
-        "pick": "",
-        "games": 0
+        "pick": "VGK",
+        "games": 5
       },
       {
         "name": "SC8",
@@ -364,22 +364,22 @@
       },
       {
         "name": "WC5",
-        "pick": "",
-        "games": 6
+        "pick": "COL",
+        "games": 7
       },
       {
         "name": "WC6",
-        "pick": "",
-        "games": 5
-      },
-      {
-        "name": "EC5",
-        "pick": "",
+        "pick": "WPG",
         "games": 6
       },
       {
+        "name": "EC5",
+        "pick": "NYI",
+        "games": 7
+      },
+      {
         "name": "EC6",
-        "pick": "",
+        "pick": "TBL",
         "games": 6
       },
       {
