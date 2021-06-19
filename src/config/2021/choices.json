@@ -44,13 +44,13 @@
       },
       {
         "name": "WC5",
-        "pick": "",
-        "games": 0
+        "pick": "COL",
+        "games": 6
       },
       {
         "name": "WC6",
-        "pick": "",
-        "games": 0
+        "pick": "WPG",
+        "games": 6
       },
       {
         "name": "EC5",
@@ -124,22 +124,22 @@
       },
       {
         "name": "WC5",
-        "pick": "",
-        "games": 5
+        "pick": "VGK",
+        "games": 6
       },
       {
         "name": "WC6",
-        "pick": "",
-        "games": 5
+        "pick": "WPG",
+        "games": 6
       },
       {
         "name": "EC5",
-        "pick": "",
+        "pick": "NYI",
         "games": 7
       },
       {
         "name": "EC6",
-        "pick": "",
+        "pick": "TBL",
         "games": 6
       },
       {
@@ -204,23 +204,23 @@
       },
       {
         "name": "WC5",
-        "pick": "",
+        "pick": "COL",
         "games": 6
       },
       {
         "name": "WC6",
-        "pick": "",
-        "games": 6
+        "pick": "MTL",
+        "games": 7
       },
       {
         "name": "EC5",
-        "pick": "",
-        "games": 7
+        "pick": "BOS",
+        "games": 6
       },
       {
         "name": "EC6",
-        "pick": "",
-        "games": 7
+        "pick": "TBL",
+        "games": 6
       },
       {
         "name": "EC7",
@@ -284,23 +284,23 @@
       },
       {
         "name": "WC5",
-        "pick": "",
-        "games": 5
-      },
-      {
-        "name": "WC6",
-        "pick": "",
+        "pick": "COL",
         "games": 4
       },
       {
+        "name": "WC6",
+        "pick": "WPG",
+        "games": 6
+      },
+      {
         "name": "EC5",
-        "pick": "",
+        "pick": "NYI",
         "games": 7
       },
       {
         "name": "EC6",
-        "pick": "",
-        "games": 6
+        "pick": "TBL",
+        "games": 5
       },
       {
         "name": "EC7",
@@ -455,12 +455,12 @@
       },
       {
         "name": "WC5",
-        "pick": "",
+        "pick": "COL",
         "games": 5
       },
       {
         "name": "WC6",
-        "pick": "",
+        "pick": "WPG",
         "games": 7
       },
       {
@@ -471,7 +471,7 @@
       {
         "name": "EC6",
         "pick": "CAR",
-        "games": 0
+        "games": 7
       },
       {
         "name": "EC7",
