@@ -1,179 +1,107 @@
 [
   {
-    "name": "QR1",
-    "top": "CGY",
-    "bottom": "WPG",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "QR2",
-    "top": "VAN",
+    "name": "WC1",
+    "top": "COL",
     "bottom": "STL",
     "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "QR3",
-    "top": "NSH",
-    "bottom": "ARI",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "QR4",
-    "top": "EDM",
-    "bottom": "CHI",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "QR5",
-    "top": "TOR",
-    "bottom": "CBJ",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "QR6",
-    "top": "NYI",
-    "bottom": "FLA",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "QR7",
-    "top": "CAR",
-    "bottom": "NYR",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "QR8",
-    "top": "PIT",
-    "bottom": "MTL",
-    "result": {
-      "winner": "",
-      "games": 0
-    }
-  },
-  {
-    "name": "WC1",
-    "top": "VGK",
-    "bottom": "CHI",
-    "result": {
-      "winner": "VGK",
-      "games": 5
+      "winner": "COL",
+      "games": 4
     }
   },
   {
     "name": "WC2",
-    "top": "COL",
-    "bottom": "ARI",
+    "top": "VGK",
+    "bottom": "MIN",
     "result": {
-      "winner": "COL",
-      "games": 5
+      "winner": "VGK",
+      "games": 7
     }
   },
   {
     "name": "WC3",
-    "top": "CGY",
-    "bottom": "DAL",
+    "top": "TOR",
+    "bottom": "MTL",
     "result": {
-      "winner": "DAL",
-      "games": 6
+      "winner": "MTL",
+      "games": 7
     }
   },
   {
     "name": "WC4",
-    "top": "VAN",
-    "bottom": "STL",
+    "top": "EDM",
+    "bottom": "WPG",
     "result": {
-      "winner": "VAN",
-      "games": 6
+      "winner": "WPG",
+      "games": 4
     }
   },
   {
     "name": "EC1",
-    "top": "PHI",
-    "bottom": "CAN",
+    "top": "PIT",
+    "bottom": "NYI",
     "result": {
-      "winner": "PHI",
+      "winner": "NYI",
       "games": 6
     }
   },
   {
     "name": "EC2",
-    "top": "TBL",
-    "bottom": "CBJ",
-    "result": {
-      "winner": "TBL",
-      "games": 5
-    }
-  },
-  {
-    "name": "EC3",
     "top": "WSH",
-    "bottom": "NYI",
-    "result": {
-      "winner": "NYI",
-      "games": 5
-    }
-  },
-  {
-    "name": "EC4",
-    "top": "BOS",
-    "bottom": "CAR",
+    "bottom": "BOS",
     "result": {
       "winner": "BOS",
       "games": 5
     }
   },
   {
+    "name": "EC3",
+    "top": "CAR",
+    "bottom": "NSH",
+    "result": {
+      "winner": "CAR",
+      "games": 6
+    }
+  },
+  {
+    "name": "EC4",
+    "top": "FLA",
+    "bottom": "TBL",
+    "result": {
+      "winner": "TBL",
+      "games": 6
+    }
+  },
+  {
     "name": "WC5",
-    "top": "VGK",
-    "bottom": "VAN",
+    "top": "COL",
+    "bottom": "VGK",
     "result": {
       "winner": "VGK",
-      "games": 7
+      "games": 6
     }
   },
   {
     "name": "WC6",
-    "top": "COL",
-    "bottom": "DAL",
+    "top": "WPG",
+    "bottom": "MTL",
     "result": {
-      "winner": "DAL",
-      "games": 7
+      "winner": "MTL",
+      "games": 4
     }
   },
   {
     "name": "EC5",
-    "top": "PHI",
+    "top": "BOS",
     "bottom": "NYI",
     "result": {
       "winner": "NYI",
-      "games": 7
+      "games": 6
     }
   },
   {
     "name": "EC6",
-    "top": "TBL",
-    "bottom": "BOS",
+    "top": "CAR",
+    "bottom": "TBL",
     "result": {
       "winner": "TBL",
       "games": 5
@@ -182,10 +110,10 @@
   {
     "name": "WC7",
     "top": "VGK",
-    "bottom": "DAL",
+    "bottom": "MTL",
     "result": {
-      "winner": "DAL",
-      "games": 5
+      "winner": "",
+      "games": 0
     }
   },
   {
@@ -193,17 +121,17 @@
     "top": "TBL",
     "bottom": "NYI",
     "result": {
-      "winner": "TBL",
-      "games": 6
+      "winner": "",
+      "games": 0
     }
   },
   {
     "name": "SC8",
-    "top": "TBL",
-    "bottom": "DAL",
+    "top": "",
+    "bottom": "",
     "result": {
-      "winner": "TBL",
-      "games": 6
+      "winner": "",
+      "games": 0
     }
   }
 ]
