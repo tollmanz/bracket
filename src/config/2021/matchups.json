@@ -127,8 +127,8 @@
   },
   {
     "name": "SC8",
-    "top": "",
-    "bottom": "",
+    "top": "TBL",
+    "bottom": "MTL",
     "result": {
       "winner": "",
       "games": 0
