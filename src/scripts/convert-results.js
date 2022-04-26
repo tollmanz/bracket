@@ -11,6 +11,51 @@ const roundsMap = {
   4: ["SC8"],
 };
 
+const buildChoices = (paths) => {
+  const filename = "choices.json";
+
+  paths.forEach((pathValue) => {
+    // Read the file
+    const file = fs.readFileSync(path.join(pathValue, filename), "utf8");
+
+    // Parse the file
+    const competitors = JSON.parse(file);
+
+    // Build the results
+    let lines = Object.keys(roundsMap).map((round) => {
+      const keys = roundsMap[round];
+      const results = competitors.map((competitor) => {
+        const name = competitor.competitor;
+        const choicesString = competitor.choices
+          .filter((choice) => keys.includes(choice.name))
+          .map((choice) => {
+            if (choice.pick !== "" && choice.games > 0) {
+              return `${choice.pick} ${choice.games}`;
+            }
+
+            return false;
+          })
+          .filter(Boolean)
+          .join(", ");
+
+        if (choicesString) {
+          return `${name}: ${choicesString}`;
+        }
+
+        return false;
+      })
+      .filter(Boolean);
+
+      return `--round ${round}--\n${results.join("\n")}`;
+    });
+
+    fs.writeFileSync(
+      path.join(pathValue, "picks.hockey"),
+      lines.join("\n\n")
+    );
+  });
+};
+
 const buildResults = (paths) => {
   const filename = "matchups.json";
 
@@ -41,4 +86,5 @@ const buildResults = (paths) => {
   });
 };
 
+buildChoices(paths);
 buildResults(paths);
