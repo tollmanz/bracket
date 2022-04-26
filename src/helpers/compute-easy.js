@@ -174,3 +174,7 @@ const compute = (pickLines, resultLines) => {
 
   return scores;
 };
+
+module.exports = {
+  compute,
+};
