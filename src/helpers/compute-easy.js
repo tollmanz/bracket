@@ -1,4 +1,4 @@
-const teams = require("../config/team-codes");
+const teams = require("../config/team-codes.json");
 
 /**
  * Round is a header in the file, e.g.,
