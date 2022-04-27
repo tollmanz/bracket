@@ -1,22 +1,26 @@
-const YEAR = require('../config/year');
-const CHOICES = require(`../config/${YEAR}/choices.json`);
-const COMPETITORS = require(`../config/${YEAR}/competitors.json`);
-const MATCHUPS = require(`../config/${YEAR}/matchups.json`);
-const TEAMS = require(`../config/${YEAR}/teams.json`);
-const GET_YEAR_DATA = ( y = YEAR ) => {
-	return {
-		CHOICES : require(`../config/${y}/choices.json`),
-		COMPETITORS : require(`../config/${y}/competitors.json`),
-		MATCHUPS : require(`../config/${y}/matchups.json`),
-		TEAMS : require(`../config/${y}/teams.json`),
-	}
-}
+const fs = require("fs");
+const path = require("path");
+
+const YEAR = require("../config/year");
+const CONFIG_PATH = path.join(__dirname, "..", "/config");
+
+const getYearData = (year = YEAR) => {
+  const YEAR_PATH = path.join(CONFIG_PATH, `${year}`);
+
+  const picks = fs
+    .readFileSync(path.join(YEAR_PATH, "picks.hockey"), "utf8")
+    .split("\n");
+  const results = fs
+    .readFileSync(path.join(YEAR_PATH, "results.hockey"), "utf8")
+    .split("\n");
+
+  return {
+    picks,
+    results,
+  };
+};
 
 module.exports = {
-  CHOICES,
-  COMPETITORS,
-  MATCHUPS,
-  TEAMS,
   YEAR,
-  GET_YEAR_DATA
-}
+  getYearData,
+};

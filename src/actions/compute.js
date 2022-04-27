@@ -1,17 +1,17 @@
-const { computeCompetitorScore } = require('../helpers/compute');
-const data = require('../helpers/data');
-const YEAR = require('../config/year');
+const { compute } = require("../helpers/compute-easy");
+const { getYearData, YEAR } = require("../helpers/data");
 
-const computeResults = ( year = YEAR ) => {
-  const yearData = data.GET_YEAR_DATA( year );
-  return yearData.COMPETITORS.map(competitor => {
-    return {
-      name: competitor.twitter,
-      score: computeCompetitorScore(competitor.twitter, yearData.CHOICES, yearData.MATCHUPS)
-    };
-  });
+const computeResults = (year = YEAR) => {
+  const yearData = getYearData(year);
+
+  const results = compute(yearData.picks, yearData.results);
+
+  return Object.keys(results).map((key) => ({
+    name: key,
+    score: results[key],
+  }));
 };
 
 module.exports = {
-  computeResults
+  computeResults,
 };
