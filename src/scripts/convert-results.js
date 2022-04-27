@@ -50,8 +50,8 @@ const buildChoices = (paths) => {
     });
 
     fs.writeFileSync(
-      path.join(pathValue, "picks.hockey"),
-      lines.join("\n\n")
+      path.join(pathValue, "picks.hockey.js"),
+      "module.exports = `" + lines.join("\n\n") + "`;\n"
     );
   });
 };
@@ -80,8 +80,8 @@ const buildResults = (paths) => {
     });
 
     fs.writeFileSync(
-      path.join(pathValue, "results.hockey"),
-      lines.join("\n\n")
+      path.join(pathValue, "results.hockey.js"),
+      "module.exports = `" + lines.join("\n\n") + "`;\n"
     );
   });
 };
