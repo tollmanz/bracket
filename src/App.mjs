@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Score from "./Score";
+import Score from "./Score.mjs";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import YEAR from "./config/year.mjs";
