@@ -1,4 +1,4 @@
-module.exports = `
+export default `
 --round 1--
 DAL 6, STL 6, COL 5, SJS 7, CBJ 4, BOS 7, CAR 7, NYI 4
 

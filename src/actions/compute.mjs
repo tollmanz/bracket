@@ -1,7 +1,8 @@
-const { compute } = require("../helpers/compute");
-const { getYearData, YEAR } = require("../helpers/data");
+import { compute } from "../helpers/compute.mjs";
+import YEAR from "../config/year.mjs";
+import { getYearData } from "../helpers/data.mjs";
 
-const computeResults = (year = YEAR) => {
+export const computeResults = (year = YEAR) => {
   const yearData = getYearData(year);
 
   const results = compute(yearData.picks, yearData.results);
@@ -10,8 +11,4 @@ const computeResults = (year = YEAR) => {
     name: key,
     score: results[key],
   }));
-};
-
-module.exports = {
-  computeResults,
 };

@@ -1,2 +1,2 @@
-const api = require('./src/api');
-module.exports = ( req ) => api( req );
+const api = require("./src/api");
+export default (req) => api(req);

@@ -1,4 +1,4 @@
-module.exports = `--round 1--
+export default `--round 1--
 @thoronas: COL 5, VGK 7, TOR 6, EDM 7, PIT 7, BOS 6, CAR 5, FLA 7
 @vegasgeek: COL 5, VGK 6, TOR 6, EDM 6, PIT 6, WSH 7, CAR 5, FLA 6
 @desrosj: COL 5, VGK 6, TOR 5, EDM 6, NYI 6, BOS 7, CAR 6, TBL 5

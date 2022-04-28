@@ -24,34 +24,35 @@ const buildChoices = (paths) => {
     // Build the results
     let lines = Object.keys(roundsMap).map((round) => {
       const keys = roundsMap[round];
-      const results = competitors.map((competitor) => {
-        const name = competitor.competitor;
-        const choicesString = competitor.choices
-          .filter((choice) => keys.includes(choice.name))
-          .map((choice) => {
-            if (choice.pick !== "" && choice.games > 0) {
-              return `${choice.pick} ${choice.games}`;
-            }
+      const results = competitors
+        .map((competitor) => {
+          const name = competitor.competitor;
+          const choicesString = competitor.choices
+            .filter((choice) => keys.includes(choice.name))
+            .map((choice) => {
+              if (choice.pick !== "" && choice.games > 0) {
+                return `${choice.pick} ${choice.games}`;
+              }
 
-            return false;
-          })
-          .filter(Boolean)
-          .join(", ");
+              return false;
+            })
+            .filter(Boolean)
+            .join(", ");
 
-        if (choicesString) {
-          return `${name}: ${choicesString}`;
-        }
+          if (choicesString) {
+            return `${name}: ${choicesString}`;
+          }
 
-        return false;
-      })
-      .filter(Boolean);
+          return false;
+        })
+        .filter(Boolean);
 
       return `--round ${round}--\n${results.join("\n")}`;
     });
 
     fs.writeFileSync(
       path.join(pathValue, "picks.hockey.js"),
-      "module.exports = `" + lines.join("\n\n") + "`;\n"
+      "export default  `" + lines.join("\n\n") + "`;\n"
     );
   });
 };
@@ -81,7 +82,7 @@ const buildResults = (paths) => {
 
     fs.writeFileSync(
       path.join(pathValue, "results.hockey.js"),
-      "module.exports = `" + lines.join("\n\n") + "`;\n"
+      "export default  `" + lines.join("\n\n") + "`;\n"
     );
   });
 };

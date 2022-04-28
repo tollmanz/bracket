@@ -1,4 +1,4 @@
-{
+export default {
   "AFM": "AFM",
   "ANA": "ANA",
   "ARI": "ARI",

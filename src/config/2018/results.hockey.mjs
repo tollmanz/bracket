@@ -1,4 +1,4 @@
-module.exports = `--round 1--
+export default `--round 1--
 NSH 6, WPG 5, VGK 4, SJS 4, TBL 5, BOS 7, WAS 6, PIT 6
 
 --round 2--

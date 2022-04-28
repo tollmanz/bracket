@@ -1,4 +1,4 @@
-module.exports = `--round 1--
+export default `--round 1--
 COL 4, VGK 7, MTL 7, WPG 4, NYI 6, BOS 5, CAR 6, TBL 6
 
 --round 2--

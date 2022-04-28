@@ -1,4 +1,4 @@
-const teams = require("../config/team-codes.json");
+import teams from "../config/team-codes.mjs";
 
 /**
  * Round is a header in the file, e.g.,
@@ -120,7 +120,7 @@ const prepareResults = (lines) => {
  * @param {string[]} resultLines The lines of results.
  * @returns {object} An object with keys being `competitor` and values being the score.
  */
-const compute = (pickLines, resultLines) => {
+export const compute = (pickLines, resultLines) => {
   let round;
   const scores = {};
   const results = prepareResults(resultLines);
@@ -173,8 +173,4 @@ const compute = (pickLines, resultLines) => {
   });
 
   return scores;
-};
-
-module.exports = {
-  compute,
 };
