@@ -2,7 +2,7 @@ export default `--round 1--
 @thoronas: NSH 4, WPG 5, VGK 7, ANA 6, TBL 5, BOS 6, WAS 6, PHI 7
 @vegasgeek: NSH 5, WPG 6, VGK 6, SJS 6, TBL 5, BOS 6, CBJ 7, PIT 5
 @aaronjorbin: NSH 4, WPG 6, VGK 6, SJS 7, TBL 5, TOR 7, WAS 6, PIT 6
-@nacin: NSH 5, WPG 5, VGK 6, ANA 7, TBL 6, BOS 7, WAS 8, PIT 6
+@nacin: NSH 5, WPG 5, VGK 6, ANA 7, TBL 6, BOS 7, WAS 7, PIT 6
 @tollmanz: NSH 6, WPG 5, VGK 7, SJS 6, TBL 4, TOR 6, WAS 6, PIT 7
 
 --round 2--
