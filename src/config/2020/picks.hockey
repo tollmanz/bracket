@@ -1,4 +1,4 @@
-export default `--round 1--
+--round 1--
 @thoronas: VGK 6, COL 5, CGY 7, STL 7, PHI 5, TBL 4, WSH 7, CAR 6
 @vegasgeek: VGK 6, COL 6, CGY 5, STL 7, PHI 6, CBJ 6, WSH 5, BOS 7
 @desrosj: VGK 7, COL 5, DAL 6, VAN 7, PHI 5, TBL 6, WSH 7, BOS 6
@@ -30,4 +30,4 @@ export default `--round 1--
 @desrosj: TBL 6
 @aaronjorbin: DAL 6
 @tollmanz: DAL 7
-@cklosowski: DAL 6`;
+@cklosowski: DAL 6
