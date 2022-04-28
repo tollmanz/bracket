@@ -1,0 +1,13 @@
+{
+  "name": "validate-picks",
+  "version": "1.0.0",
+  "description": "Validates picks for a competitor",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "1.7.0",
+    "@actions/github": "5.0.1"
+  }
+}
