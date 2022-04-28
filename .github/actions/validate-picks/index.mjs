@@ -67,7 +67,6 @@ const picks = YEARS.reduce((acc, year) => {
 
 const eachLineIsARoundHeaderOrPick = (picks) => {
   let success = true;
-  const errors = [];
   let round = 0;
 
   Object.keys(picks).forEach((year) => {
@@ -80,34 +79,31 @@ const eachLineIsARoundHeaderOrPick = (picks) => {
       }
 
       if (isRoundHeader(line)) {
-        console.log(`✅ line is a round header: ${line}`);
         round = parseInt(roundRegex.exec(line).groups.round);
+        console.log(`✅ line is a round header: ${line} (round: ${round}, year: ${year})`);
         return;
       }
 
       if (isPickLine(line)) {
-        console.log(`✅ line is a pick line: ${line}`);
+        console.log(`✅ line is a pick line: ${line} (round: ${round}, year: ${year})`);
         const picks = [...line.matchAll(picksRegex)];
 
         if (picks.length !== ROUND_GAMES_MAP[round]) {
-          const output = `❌ line does not have enough valid picks for the round: ${line}`;
+          const output = `❌ line does not have enough valid picks for the round: ${line} (round: ${round}, year: ${year})`;
           console.log(output);
-          errors.push(output);
           success = false;
         }
 
         picks.forEach((pick) => {
           if (!TEAM_CODES[pick.groups.team]) {
-            const output = `❌ line has an invalid team: ${pick.groups.team} on ${line}`;
+            const output = `❌ line has an invalid team: ${pick.groups.team} on ${line} (round: ${round}, year: ${year})`;
             console.log(output);
-            errors.push(output);
             success = false;
           }
 
           if (pick.groups.games < 4 || pick.groups.games > 7) {
-            const output = `❌ line has an invalid number of games: ${pick.groups.games} for ${pick.groups.team} on ${line}`;
+            const output = `❌ line has an invalid number of games: ${pick.groups.games} for ${pick.groups.team} on ${line} (round: ${round}, year: ${year})`;
             console.log(output);
-            errors.push(output);
             success = false;
           }
         });
@@ -116,17 +112,15 @@ const eachLineIsARoundHeaderOrPick = (picks) => {
       }
 
       if (!hasCompetitor(line)) {
-        const output = `❌ line does not have a competitor: ${line}`;
+        const output = `❌ line does not have a competitor: ${line} (round: ${round}, year: ${year})`;
         console.log(output);
-        errors.push(output);
         success = false;
         return;
       }
 
       if (!hasPicks(line)) {
-        const output = `❌ line does not have picks: ${line}`;
+        const output = `❌ line does not have picks: ${line} (round: ${round}, year: ${year})`;
         console.log(output);
-        errors.push(output);
         success = false;
         return;
       }
@@ -140,7 +134,7 @@ try {
   const result = eachLineIsARoundHeaderOrPick(picks);
 
   if (result.success === false) {
-    core.setFailed("One or more lines are invalid", result.errors);
+    core.setFailed("One or more lines are invalid. See output for details");
   }
 } catch (error) {
   core.setFailed(error.message);
