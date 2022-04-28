@@ -27,6 +27,8 @@
   "devDependencies": {
     "eslint-config-prettier": "8.5.0",
     "eslint-plugin-prettier": "4.0.0",
+    "@actions/core": "1.7.0",
+    "@actions/github": "5.0.1",
     "prettier": "2.6.2"
   },
   "browserslist": [
