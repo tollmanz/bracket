@@ -79,12 +79,16 @@ const validate = (picks) => {
 
       if (isRoundHeader(line)) {
         round = parseInt(roundRegex.exec(line).groups.round);
-        console.log(`✅ line is a round header: ${line} (round: ${round}, year: ${year})`);
+        console.log(
+          `✅ line is a round header: ${line} (round: ${round}, year: ${year})`
+        );
         return;
       }
 
       if (isPickLine(line)) {
-        console.log(`✅ line is a pick line: ${line} (round: ${round}, year: ${year})`);
+        console.log(
+          `✅ line is a pick line: ${line} (round: ${round}, year: ${year})`
+        );
         const picks = [...line.matchAll(picksRegex)];
 
         if (picks.length !== ROUND_GAMES_MAP[round]) {

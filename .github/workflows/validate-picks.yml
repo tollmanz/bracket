@@ -9,4 +9,3 @@ jobs:
       - uses: actions/checkout@v1
       - name: Validate Picks
         uses: ./.github/actions/validate-picks
-
