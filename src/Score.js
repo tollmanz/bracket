@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import YEAR from "./config/year.mjs";
 
 import { computeResults } from "./actions/compute.mjs";
-import * as _ from "lodash";
+import _ from "lodash";
 
 class Score extends Component {
   render() {
