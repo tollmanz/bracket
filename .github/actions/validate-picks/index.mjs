@@ -2,7 +2,6 @@ import fs from "fs";
 import path from "path";
 
 import * as core from "@actions/core";
-import * as github from "@actions/github";
 
 import { YEARS } from "../../../src/config/years.mjs";
 import TEAM_CODES from "../../../src/config/team-codes.mjs";
@@ -65,7 +64,7 @@ const picks = YEARS.reduce((acc, year) => {
   return acc;
 }, {});
 
-const eachLineIsARoundHeaderOrPick = (picks) => {
+const validate = (picks) => {
   let success = true;
   let round = 0;
 
@@ -131,7 +130,7 @@ const eachLineIsARoundHeaderOrPick = (picks) => {
 };
 
 try {
-  const result = eachLineIsARoundHeaderOrPick(picks);
+  const result = validate(picks);
 
   if (result.success === false) {
     core.setFailed("One or more lines are invalid. See output for details");
