@@ -1,11 +1,13 @@
 {
   "version": 2,
   "alias": "blame.hockey",
-  "builds": [{
-    "src": "package.json",
-    "use": "@now/static-build",
-    "config": {
-      "distDir": "build"
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@now/static-build",
+      "config": {
+        "distDir": "build"
+      }
     }
-  }]
+  ]
 }
