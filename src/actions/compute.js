@@ -1,4 +1,4 @@
-const { compute } = require("../helpers/compute-easy");
+const { compute } = require("../helpers/compute");
 const { getYearData, YEAR } = require("../helpers/data");
 
 const computeResults = (year = YEAR) => {
