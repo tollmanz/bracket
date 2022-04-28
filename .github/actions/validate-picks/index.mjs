@@ -126,13 +126,13 @@ const validate = (picks) => {
     });
   });
 
-  return { success, errors };
+  return success;
 };
 
 try {
   const result = validate(picks);
 
-  if (result.success === false) {
+  if (result === false) {
     core.setFailed("One or more lines are invalid. See output for details");
   }
 } catch (error) {
