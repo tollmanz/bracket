@@ -58,4 +58,6 @@ export default {
   WPG: "WPG",
   WSH: "WSH",
   WAS: "WSH",
+  CAL: "CGY",
+  TB: "TBL",
 };

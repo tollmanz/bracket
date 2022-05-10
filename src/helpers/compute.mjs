@@ -45,8 +45,10 @@ const POINTS_FOR_PICK = {
 const POINTS_FOR_GAMES = 2;
 
 const normalizeTeamName = (team) => {
-  if (teams[team]) {
-    return teams[team];
+  const teamUpper = team.toUpperCase();
+
+  if (teams[teamUpper]) {
+    return teams[teamUpper];
   } else {
     throw new Error(`${team} is not a valid team`);
   }
