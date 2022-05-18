@@ -1,0 +1,11 @@
+name: validate-picks
+on: [push]
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: Validate Picks
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate Picks
+        uses: ./.github/actions/validate-picks

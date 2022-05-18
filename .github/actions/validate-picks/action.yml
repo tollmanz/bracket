@@ -1,0 +1,5 @@
+name: "Validate Picks"
+description: "Validates picks in the .hockey files"
+runs:
+  using: "node16"
+  main: "index.mjs"
