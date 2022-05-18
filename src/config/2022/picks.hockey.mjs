@@ -5,4 +5,12 @@ export default `--round 1--
 @aaronjorbin: CAR 6 PIT 7 FLA 5 TB 4 COL 5 MIN 6 CAL 6 EDM 4
 @cklosowski: CAR 5 NYR 6 FLA 5 TB 5 COL 6 STL 6 CAL 4 EDM 5
 @tollmanz: CAR 7 PIT 6 TOR 7 FLA 4 CGY 6 LAK 7 STL 6 COL 5
+
+--round 2--
+@tollmanz: FLA 7, COL 6, CAR 6, EDM 7
+@cklosowski: COL 5 EDM 7 FLA 6 CAR 6
+@aaronjorbin: CGY 7 COL 6 TBL 6 CAR 6
+@desrosj: CAR 5 FLA 7 COL 6 EDM 7
+@thoronas: Col 6 Car 6 Tbl 7 Cgy 6
+@vegasgeek: COL 6 CGY 6 CAR 7 FLA 6
 `;
