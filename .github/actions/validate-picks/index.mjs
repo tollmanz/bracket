@@ -98,7 +98,7 @@ const validate = (picks) => {
         }
 
         picks.forEach((pick) => {
-          if (!TEAM_CODES[pick.groups.team]) {
+          if (!TEAM_CODES[pick.groups.team.toUpperCase()]) {
             const output = `❌ line has an invalid team: ${pick.groups.team} on ${line} (round: ${round}, year: ${year})`;
             console.log(output);
             success = false;
