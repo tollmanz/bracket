@@ -1,0 +1,603 @@
+{
+  "year": 2025,
+  "status": "complete",
+  "champion": "FLA",
+  "matchupsReconstructed": false,
+  "source": "Projects/picks markdown pool",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Round 1",
+      "series": [
+        {
+          "teams": [
+            "TOR",
+            "OTT"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TOR",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "OTT",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "OTT",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "TOR",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "TOR",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "OTT",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "FLA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "FLA",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "FLA",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "FLA",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "WSH",
+            "MTL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "WSH",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "WSH",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "WSH",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "WSH",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CAR",
+            "NJD"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "NJD",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CAR",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "WPG",
+            "STL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "WPG",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "WPG",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "WPG",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "WPG",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "WPG",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "WPG",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "DAL",
+            "COL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "DAL",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "COL",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "COL",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "VGK",
+            "MIN"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "VGK",
+              "games": 4
+            },
+            {
+              "person": "aaron",
+              "team": "VGK",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "LAK",
+            "EDM"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "EDM",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "LAK",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "LAK",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "EDM",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "EDM",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "EDM",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "name": "Round 2",
+      "series": [
+        {
+          "teams": [
+            "TOR",
+            "FLA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "FLA",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "TOR",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "FLA",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "FLA",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "WSH",
+            "CAR"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "CAR",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "WPG",
+            "DAL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "DAL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "DAL",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "DAL",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "DAL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "VGK",
+            "EDM"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "EDM",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "flynn",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "EDM",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "EDM",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "name": "Conference Finals",
+      "series": [
+        {
+          "teams": [
+            "CAR",
+            "FLA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "FLA",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "FLA",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "FLA",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "DAL",
+            "EDM"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "EDM",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "EDM",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "EDM",
+              "games": 7
+            },
+            {
+              "person": "flynn",
+              "team": "EDM",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "name": "Stanley Cup Final",
+      "series": [
+        {
+          "teams": [
+            "EDM",
+            "FLA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "FLA",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "aaron",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "EDM",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "EDM",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "EDM",
+              "games": 7
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

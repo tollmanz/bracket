@@ -1,0 +1,538 @@
+{
+  "year": 2022,
+  "status": "in-progress",
+  "champion": null,
+  "matchupsReconstructed": true,
+  "source": "github:tollmanz/bracket",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Round 1",
+      "series": [
+        {
+          "teams": [
+            "COL",
+            "NSH"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "COL",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "thoronas",
+              "team": "COL",
+              "games": 4
+            },
+            {
+              "person": "jonathan",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "cklosowski",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "COL",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "STL",
+            "MIN"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "STL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "MIN",
+              "games": 6
+            },
+            {
+              "person": "thoronas",
+              "team": "MIN",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "STL",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "MIN",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "STL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "FLA",
+            "WSH"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "FLA",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "thoronas",
+              "team": "FLA",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "FLA",
+              "games": 5
+            },
+            {
+              "person": "cklosowski",
+              "team": "FLA",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "FLA",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CAR",
+            "BOS"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "thoronas",
+              "team": "CAR",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "TOR"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TBL",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "TOR",
+              "games": 7
+            },
+            {
+              "person": "thoronas",
+              "team": "TOR",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 4
+            },
+            {
+              "person": "cklosowski",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "TOR",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "EDM",
+            "LAK"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "EDM",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "EDM",
+              "games": 5
+            },
+            {
+              "person": "thoronas",
+              "team": "EDM",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "EDM",
+              "games": 4
+            },
+            {
+              "person": "aaron",
+              "team": "EDM",
+              "games": 4
+            },
+            {
+              "person": "cklosowski",
+              "team": "EDM",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "LAK",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "NYR",
+            "PIT"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "NYR",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "NYR",
+              "games": 5
+            },
+            {
+              "person": "thoronas",
+              "team": "PIT",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "NYR",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "PIT",
+              "games": 7
+            },
+            {
+              "person": "cklosowski",
+              "team": "NYR",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "PIT",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CGY",
+            "DAL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CGY",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "CGY",
+              "games": 7
+            },
+            {
+              "person": "thoronas",
+              "team": "CGY",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "CGY",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CGY",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "CGY",
+              "games": 4
+            },
+            {
+              "person": "zack",
+              "team": "CGY",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "name": "Round 2",
+      "series": [
+        {
+          "teams": [
+            "COL",
+            "STL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "COL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "thoronas",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "COL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "EDM",
+            "CGY"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "EDM",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "EDM",
+              "games": 7
+            },
+            {
+              "person": "cklosowski",
+              "team": "EDM",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "CGY",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "EDM",
+              "games": 7
+            },
+            {
+              "person": "thoronas",
+              "team": "CGY",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "CGY",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "FLA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TBL",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "FLA",
+              "games": 7
+            },
+            {
+              "person": "cklosowski",
+              "team": "FLA",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "FLA",
+              "games": 7
+            },
+            {
+              "person": "thoronas",
+              "team": "TBL",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "FLA",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "NYR",
+            "CAR"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "NYR",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "thoronas",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "CAR",
+              "games": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Ground-truth results file only covers Round 1 and Round 2; no Conference Finals or Stanley Cup Final data is present, so the bracket is incomplete and the champion is unknown."
+}

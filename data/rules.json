@@ -1,0 +1,5 @@
+{
+  "basePoints": { "1": 1, "2": 3, "3": 5, "4": 7 },
+  "gamesBonus": 2,
+  "description": "Correct series winner earns the round's base points. Predicting the exact number of games as well adds a 2-point bonus. Wrong winner scores 0. Series are scored only once final."
+}

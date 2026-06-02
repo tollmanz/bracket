@@ -1,0 +1,904 @@
+{
+  "year": 2019,
+  "status": "complete",
+  "champion": "STL",
+  "matchupsReconstructed": true,
+  "source": "github:tollmanz/bracket",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Round 1",
+      "series": [
+        {
+          "teams": [
+            "DAL",
+            "NSH"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "DAL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "NSH",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "DAL",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "NSH",
+              "games": 5
+            },
+            {
+              "person": "ttollman",
+              "team": "NSH",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "NSH",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "NSH",
+              "games": 6
+            },
+            {
+              "person": "brothernacin",
+              "team": "NSH",
+              "games": 7
+            },
+            {
+              "person": "fathernacin",
+              "team": "NSH",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "STL",
+            "WPG"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "STL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "STL",
+              "games": 5
+            },
+            {
+              "person": "nacin",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "brothernacin",
+              "team": "WPG",
+              "games": 6
+            },
+            {
+              "person": "fathernacin",
+              "team": "WPG",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "COL",
+            "CGY"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "COL",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "CGY",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "CGY",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "CGY",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CGY",
+              "games": 4
+            },
+            {
+              "person": "ttollman",
+              "team": "CGY",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "CGY",
+              "games": 4
+            },
+            {
+              "person": "nacin",
+              "team": "CGY",
+              "games": 5
+            },
+            {
+              "person": "brothernacin",
+              "team": "CGY",
+              "games": 6
+            },
+            {
+              "person": "fathernacin",
+              "team": "CGY",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "SJS",
+            "VGK"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "SJS",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "ttollman",
+              "team": "SJS",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "brothernacin",
+              "team": "SJS",
+              "games": 7
+            },
+            {
+              "person": "fathernacin",
+              "team": "SJS",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CBJ",
+            "TBL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CBJ",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 4
+            },
+            {
+              "person": "ttollman",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "TBL",
+              "games": 4
+            },
+            {
+              "person": "nacin",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "brothernacin",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "fathernacin",
+              "team": "TBL",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "BOS",
+            "TOR"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "BOS",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "BOS",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "TOR",
+              "games": 6
+            },
+            {
+              "person": "ttollman",
+              "team": "TOR",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "nacin",
+              "team": "TOR",
+              "games": 7
+            },
+            {
+              "person": "brothernacin",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "fathernacin",
+              "team": "TOR",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CAR",
+            "WSH"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "ttollman",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "WSH",
+              "games": 5
+            },
+            {
+              "person": "nacin",
+              "team": "WSH",
+              "games": 5
+            },
+            {
+              "person": "brothernacin",
+              "team": "WSH",
+              "games": 5
+            },
+            {
+              "person": "fathernacin",
+              "team": "WSH",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "NYI",
+            "PIT"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "NYI",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "PIT",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "PIT",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "PIT",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "PIT",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "NYI",
+              "games": 7
+            },
+            {
+              "person": "nacin",
+              "team": "PIT",
+              "games": 7
+            },
+            {
+              "person": "brothernacin",
+              "team": "PIT",
+              "games": 6
+            },
+            {
+              "person": "fathernacin",
+              "team": "NYI",
+              "games": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "name": "Round 2",
+      "series": [
+        {
+          "teams": [
+            "STL",
+            "DAL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "STL",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "DAL",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "DAL",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "DAL",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "STL",
+              "games": 5
+            },
+            {
+              "person": "nacin",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "brothernacin",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "fathernacin",
+              "team": "STL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "SJS",
+            "COL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "SJS",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "SJS",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "SJS",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "SJS",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "SJS",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "SJS",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "SJS",
+              "games": 6
+            },
+            {
+              "person": "brothernacin",
+              "team": "SJS",
+              "games": 5
+            },
+            {
+              "person": "fathernacin",
+              "team": "SJS",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "BOS",
+            "CBJ"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "BOS",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "CBJ",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "CBJ",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CBJ",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "CBJ",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "nacin",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "brothernacin",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "fathernacin",
+              "team": "CBJ",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CAR",
+            "NYI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CAR",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "brothernacin",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "fathernacin",
+              "team": "NYI",
+              "games": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "name": "Conference Finals",
+      "series": [
+        {
+          "teams": [
+            "STL",
+            "SJS"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "STL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "SJS",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "SJS",
+              "games": 7
+            },
+            {
+              "person": "brothernacin",
+              "team": "SJS",
+              "games": 6
+            },
+            {
+              "person": "fathernacin",
+              "team": "SJS",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "BOS",
+            "CAR"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "BOS",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "BOS",
+              "games": 4
+            },
+            {
+              "person": "ttollman",
+              "team": "BOS",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "nacin",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "brothernacin",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "fathernacin",
+              "team": "CAR",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "name": "Stanley Cup Final",
+      "series": [
+        {
+          "teams": [
+            "STL",
+            "BOS"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "STL",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "BOS",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "brothernacin",
+              "team": "STL",
+              "games": 5
+            },
+            {
+              "person": "fathernacin",
+              "team": "STL",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Reconstructed from ground-truth results file (rounds 1-4 present, including Stanley Cup Final). Matchup opponents identified via Wikipedia 2019 Stanley Cup playoffs; winners and game counts taken verbatim from the ground-truth file. @TTollman has no alias mapping and is omitted from all picks. nacin's Round 1 picks were listed Eastern-first then Western (TBL, TOR, WSH, PIT, NSH, STL, CGY, VGK); each pick is matched to its series by team identity regardless of list order."
+}

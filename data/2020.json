@@ -1,0 +1,709 @@
+{
+  "year": 2020,
+  "status": "complete",
+  "champion": "TBL",
+  "matchupsReconstructed": true,
+  "source": "github:tollmanz/bracket",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Round 1",
+      "series": [
+        {
+          "teams": [
+            "VGK",
+            "CHI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "CHI",
+              "games": 5
+            },
+            {
+              "person": "ttollman",
+              "team": "CHI",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "CHI",
+              "games": 7
+            },
+            {
+              "person": "cklosowski",
+              "team": "VGK",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "COL",
+            "ARI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "COL",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "ttollman",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "cklosowski",
+              "team": "ARI",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "DAL",
+            "CGY"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "DAL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "CGY",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "CGY",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CGY",
+              "games": 6
+            },
+            {
+              "person": "ttollman",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "DAL",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "VAN",
+            "STL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VAN",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "STL",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "VAN",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "STL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "VAN",
+              "games": 7
+            },
+            {
+              "person": "cklosowski",
+              "team": "STL",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "PHI",
+            "MTL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "PHI",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "PHI",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "PHI",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "PHI",
+              "games": 5
+            },
+            {
+              "person": "ttollman",
+              "team": "PHI",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "PHI",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "PHI",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "CBJ"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TBL",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "TBL",
+              "games": 4
+            },
+            {
+              "person": "john",
+              "team": "CBJ",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CBJ",
+              "games": 6
+            },
+            {
+              "person": "ttollman",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "CBJ",
+              "games": 7
+            },
+            {
+              "person": "cklosowski",
+              "team": "TBL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "NYI",
+            "WSH"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "NYI",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "WSH",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "WSH",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "WSH",
+              "games": 5
+            },
+            {
+              "person": "cklosowski",
+              "team": "WSH",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "BOS",
+            "CAR"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "BOS",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "BOS",
+              "games": 5
+            },
+            {
+              "person": "ttollman",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "CAR",
+              "games": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "name": "Round 2",
+      "series": [
+        {
+          "teams": [
+            "VGK",
+            "VAN"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "ttollman",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "VGK",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "DAL",
+            "COL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "DAL",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "COL",
+              "games": 4
+            },
+            {
+              "person": "ttollman",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "cklosowski",
+              "team": "COL",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "NYI",
+            "PHI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "NYI",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "PHI",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "NYI",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "NYI",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "PHI",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "PHI",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "PHI",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "BOS"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TBL",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "john",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "ttollman",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "TBL",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "name": "Conference Finals",
+      "series": [
+        {
+          "teams": [
+            "DAL",
+            "VGK"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "DAL",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "ttollman",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "VGK",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "NYI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TBL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "NYI",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "TBL",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "NYI",
+              "games": 7
+            },
+            {
+              "person": "ttollman",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "TBL",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "name": "Stanley Cup Final",
+      "series": [
+        {
+          "teams": [
+            "TBL",
+            "DAL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TBL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "thoronas",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "DAL",
+              "games": 7
+            },
+            {
+              "person": "cklosowski",
+              "team": "DAL",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Winners and game counts come from the authoritative ground-truth results file; web research (Wikipedia, Hockey-Reference) was used only to identify the losing opponents and pairings. @TTollman picks are omitted from all series because that handle has no entry in the alias map."
+}

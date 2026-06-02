@@ -1,0 +1,577 @@
+{
+  "year": 2026,
+  "status": "in-progress",
+  "champion": null,
+  "matchupsReconstructed": false,
+  "source": "2026 picks.md (Playoffs email thread)",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Round 1",
+      "series": [
+        {
+          "teams": [
+            "COL",
+            "LAK"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "COL",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "flynn",
+              "team": "COL",
+              "games": 4
+            },
+            {
+              "person": "aaron",
+              "team": "COL",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "DAL",
+            "MIN"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "MIN",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "MIN",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "MIN",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "DAL",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "MIN",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "MIN",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "VGK",
+            "UTA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "flynn",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "VGK",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "EDM",
+            "ANA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "ANA",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "EDM",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "ANA",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "EDM",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "EDM",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "EDM",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "BUF",
+            "BOS"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "BUF",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "BUF",
+              "games": 4
+            },
+            {
+              "person": "john",
+              "team": "BUF",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "BUF",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "BUF",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "MTL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "MTL",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "MTL",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "MTL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "MTL",
+              "games": 7
+            },
+            {
+              "person": "flynn",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CAR",
+            "OTT"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "CAR",
+              "games": 4
+            },
+            {
+              "person": "jonathan",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "flynn",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CAR",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "PIT",
+            "PHI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "PHI",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "PIT",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "PIT",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "PHI",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "PIT",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "PIT",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "name": "Round 2",
+      "series": [
+        {
+          "teams": [
+            "COL",
+            "MIN"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "COL",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "COL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "COL",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "flynn",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "MIN",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "VGK",
+            "ANA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "ANA",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "ANA",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CAR",
+            "PHI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "PHI",
+              "games": 7
+            },
+            {
+              "person": "flynn",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CAR",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "BUF",
+            "MTL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "MTL",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "MTL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "MTL",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "BUF",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "BUF",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "BUF",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "name": "Conference Finals",
+      "series": [
+        {
+          "teams": [
+            "COL",
+            "VGK"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "COL",
+              "games": 7
+            },
+            {
+              "person": "flynn",
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "COL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CAR",
+            "MTL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "MTL",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "CAR",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "MTL",
+              "games": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "name": "Stanley Cup Final",
+      "series": [
+        {
+          "teams": [
+            "CAR",
+            "VGK"
+          ],
+          "result": {
+            "status": "pending",
+            "winner": null,
+            "games": null
+          },
+          "picks": []
+        }
+      ]
+    }
+  ]
+}

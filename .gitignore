@@ -1,1 +1,3 @@
 .claude/settings.local.json
+.import/
+node_modules/
