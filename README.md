@@ -91,6 +91,15 @@ in `people.json` are stored as SHA-256 hashes (`emailHash`), not plaintext.
 3. Add any new players to `data/people.json`
 4. `npm run verify` then `npm run build` (the year page and leaderboard update automatically)
 
+## Accessibility
+
+Targets WCAG 2.1 AA (Lighthouse accessibility 100 on the leaderboard and year pages).
+Notable choices: a skip link and `header`/`main`/`nav` landmarks; tables with `scope`
+and screen-reader captions; pick correctness shown with `✓`/`★`/`✗` markers and
+screen-reader labels (not color alone, which also helps red-green color blindness);
+decorative glyphs and sprites are `aria-hidden`; the leaderboard exposes `aria-sort`;
+and all animation is gated behind `prefers-reduced-motion`.
+
 ## Hosting
 
 `_site/` is a plain static site; deploy it to any static host. Pages use root-relative
