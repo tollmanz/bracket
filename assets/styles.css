@@ -170,7 +170,19 @@ h3 {
 }
 .leaderboard .th-sort:hover { color: var(--red-dark); }
 .leaderboard th[aria-sort] .th-sort { text-decoration: underline; }
-.leaderboard .sort-ind { font-size: 8px; }
+.leaderboard .sort-ind { font-size: 8px; margin-left: 2px; }
+
+/* Little hockey stick = "this column is sortable" */
+.leaderboard .sort-stick {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
+  line-height: 0;
+  opacity: 0.35;
+}
+.leaderboard .sort-stick svg { display: block; fill: currentColor; }
+.leaderboard .th-sort:hover .sort-stick { opacity: 1; }
+.leaderboard th[aria-sort] .sort-stick { opacity: 1; }
 
 /* Champions-by-season list */
 .champions { list-style: none; }

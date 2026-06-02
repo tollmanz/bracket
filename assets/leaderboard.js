@@ -59,15 +59,16 @@
     });
   });
 
-  // Apply initial sort from the URL, if any.
+  // Apply the URL sort if present, otherwise reflect the server default (cups desc)
+  // so the active column always shows its direction indicator.
   const params = new URLSearchParams(location.search);
-  const key = params.get('sort');
-  if (key) {
-    const btn = table.querySelector(`.th-sort[data-key="${key}"]`);
-    if (btn) {
-      const dir = params.get('dir') === 'asc' ? 'asc' : 'desc';
-      current = { key, dir };
-      sortBy(key, btn.dataset.type, dir);
-    }
+  const paramKey = params.get('sort');
+  const initialBtn = paramKey && table.querySelector(`.th-sort[data-key="${paramKey}"]`);
+  if (initialBtn) {
+    const dir = params.get('dir') === 'asc' ? 'asc' : 'desc';
+    current = { key: paramKey, dir };
+    sortBy(paramKey, initialBtn.dataset.type, dir);
+  } else {
+    sortBy('cups', 'num', 'desc');
   }
 })();
