@@ -1,0 +1,14 @@
+{
+  "name": "bracket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Retro scoreboard for our annual NHL Stanley Cup playoff pick 'em, across every year we have data for.",
+  "type": "module",
+  "scripts": {
+    "start": "http-server -p 8080 -c-1 .",
+    "serve": "http-server -p 8080 -c-1 ."
+  },
+  "devDependencies": {
+    "http-server": "14.1.1"
+  }
+}
