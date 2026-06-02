@@ -106,6 +106,7 @@ Eleventy's `pathPrefix` and use the `url` filter.
   playoff results and verified against the recorded winners and the known Stanley Cup
   champion. 2022 source data covers only rounds 1 and 2.
 
-`@TTollman` (Tyler Tollman) appears only in 2019-2020. The early-years handles `@nacin`,
-`@brothernacin`, `@fathernacin`, `@thoronas`, `@cklosowski` are stored under their handle;
-edit `data/people.json` to give them a display name.
+`@TTollman` (Tyler Tollman) appears only in 2019-2020, and `@thoronas` is Flynn O'Connor
+under an old handle (merged into `flynn`). The remaining early-years handles `@nacin`,
+`@brothernacin`, `@fathernacin`, `@cklosowski` are stored under their handle; edit
+`data/people.json` to give them a display name.
