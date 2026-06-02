@@ -156,6 +156,22 @@ h3 {
 .leaderboard tr.rank-3 td { background: linear-gradient(90deg, #8b4513 0%, rgba(255,255,255,0.06) 70%); }
 .board-note { color: var(--ice); font-size: 8px; margin-top: 12px; line-height: 1.8; }
 
+/* Sortable headers */
+.leaderboard .th-sort {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  color: var(--shadow);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: inherit;
+}
+.leaderboard .th-sort:hover { color: var(--red-dark); }
+.leaderboard th[aria-sort] .th-sort { text-decoration: underline; }
+.leaderboard .sort-ind { font-size: 8px; }
+
 /* Champions-by-season list */
 .champions { list-style: none; }
 .champions li {

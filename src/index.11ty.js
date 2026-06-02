@@ -14,6 +14,7 @@ export default class {
       bracket,
       body: renderLeaderboard(bracket),
       marquee: leaderboardMarquee(bracket),
+      scripts: ['/assets/leaderboard.js'],
     });
   }
 }
