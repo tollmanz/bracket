@@ -268,7 +268,7 @@ tbody tr:nth-child(even) td { background: rgba(255,255,255,0.10); }
 }
 .standings li {
   display: grid;
-  grid-template-columns: 60px 32px 1fr 80px 80px 100px;
+  grid-template-columns: 60px 32px 1fr auto 100px;
   gap: 12px;
   align-items: center;
   padding: 14px 16px;
@@ -289,7 +289,13 @@ tbody tr:nth-child(even) td { background: rgba(255,255,255,0.10); }
   text-shadow: 2px 2px var(--shadow);
 }
 .standings .name { color: var(--white); }
-.standings .r1, .standings .r2 { color: var(--ice); font-size: 9px; }
+.standings .rounds {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  justify-content: flex-end;
+}
+.standings .rd { color: var(--ice); font-size: 9px; white-space: nowrap; }
 .standings .total {
   text-align: right;
   color: var(--yellow);
@@ -346,16 +352,15 @@ tbody tr:nth-child(even) td { background: rgba(255,255,255,0.10); }
   table { font-size: 8px; }
   th, td { padding: 6px 4px; }
   .standings li {
-    grid-template-columns: 40px 24px 1fr 60px;
+    grid-template-columns: 40px 24px 1fr auto;
     grid-template-areas:
-      "rank sprite name total"
-      "rank sprite r1   r2";
+      "rank sprite name   total"
+      "rank sprite rounds rounds";
     font-size: 9px;
   }
   .standings .rank-num { grid-area: rank; }
   .standings .sprite   { grid-area: sprite; }
   .standings .name     { grid-area: name; }
   .standings .total    { grid-area: total; }
-  .standings .r1       { grid-area: r1; }
-  .standings .r2       { grid-area: r2; }
+  .standings .rounds   { grid-area: rounds; justify-content: flex-start; }
 }
