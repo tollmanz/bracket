@@ -109,7 +109,7 @@ h3 {
   box-shadow: 0 4px 0 var(--shadow);
 }
 
-/* Year selector */
+/* Year selector / nav */
 .yearbar {
   display: flex;
   flex-wrap: wrap;
@@ -125,6 +125,8 @@ h3 {
   padding: 12px 14px;
   cursor: pointer;
   border: none;
+  text-decoration: none;
+  display: inline-block;
   box-shadow:
     -3px 0 0 var(--white), 3px 0 0 var(--white),
      0 -3px 0 var(--white), 0 3px 0 var(--white),
@@ -136,6 +138,33 @@ h3 {
   color: var(--shadow);
   text-shadow: none;
 }
+
+/* All-time leaderboard */
+.leaderboard { font-size: 10px; }
+.leaderboard th.player, .leaderboard td.player { text-align: left; }
+.leaderboard td.rank-num {
+  font-size: 14px; color: var(--yellow); text-shadow: 2px 2px var(--shadow);
+}
+.leaderboard td.player { display: flex; align-items: center; gap: 10px; }
+.leaderboard .sprite svg { display: block; }
+.leaderboard .pname { color: var(--white); }
+.leaderboard .sub { color: var(--ice); font-size: 7px; margin-top: 4px; }
+.leaderboard td.cups { font-size: 12px; letter-spacing: 2px; }
+.leaderboard td.pts { color: var(--yellow); }
+.leaderboard tr.rank-1 td { background: linear-gradient(90deg, #806000 0%, rgba(255,255,255,0.06) 70%); }
+.leaderboard tr.rank-2 td { background: linear-gradient(90deg, #585858 0%, rgba(255,255,255,0.06) 70%); }
+.leaderboard tr.rank-3 td { background: linear-gradient(90deg, #8b4513 0%, rgba(255,255,255,0.06) 70%); }
+.board-note { color: var(--ice); font-size: 8px; margin-top: 12px; line-height: 1.8; }
+
+/* Champions-by-season list */
+.champions { list-style: none; }
+.champions li {
+  padding: 12px 14px; margin: 8px 0; background: var(--bg);
+  box-shadow: 0 4px 0 var(--shadow); font-size: 10px;
+}
+.champions .cy-year { color: var(--yellow); margin-right: 10px; }
+.champions b { color: var(--green); }
+.champions .cy-team { color: var(--ice); font-size: 8px; }
 
 /* Champion banner */
 .champion-banner {

@@ -1,9 +1,10 @@
-// Validates the data files and recomputes scores from facts, mirroring assets/app.js.
-// Fails (non-zero exit) on schema problems or when computed standings disagree with the
-// documented final totals we have on record. Run: node scripts/verify-data.mjs
+// Validates the data files and recomputes scores from facts using the shared
+// lib/score.mjs logic. Fails (non-zero exit) on schema problems or when computed
+// standings disagree with the documented final totals. Run: node scripts/verify-data.mjs
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
+import { pickPoints } from '../lib/score.mjs';
 
 const root = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const dataDir = path.join(root, 'data');
@@ -21,12 +22,6 @@ const fail = (msg) => errors.push(msg);
 const rules = await readJSON('rules.json');
 const people = await readJSON('people.json');
 const index = await readJSON('index.json');
-
-const pickPoints = (pick, result, round) => {
-  if (!pick || !result || result.status !== 'final') return 0;
-  if (pick.team !== result.winner) return 0;
-  return (rules.basePoints[round] || 0) + (pick.games === result.games ? rules.gamesBonus : 0);
-};
 
 for (const meta of index.years) {
   const year = await readJSON(`${meta.year}.json`);
@@ -56,7 +51,7 @@ for (const meta of index.years) {
   for (const round of year.rounds) {
     for (const series of round.series) {
       for (const person of roster) {
-        totals[person] += pickPoints(series.picks.find((p) => p.person === person), series.result, round.round);
+        totals[person] += pickPoints(series.picks.find((p) => p.person === person), series.result, round.round, rules);
       }
     }
   }
