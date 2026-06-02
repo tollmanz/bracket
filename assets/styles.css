@@ -292,9 +292,6 @@ tbody tr:nth-child(even) td { background: rgba(255,255,255,0.10); }
 /* The series/points headers sit on the yellow header bar: keep dark text there. */
 thead th.col-series { color: var(--shadow); }
 .col-result { color: var(--yellow); }
-
-/* Non-color cue for pick correctness (color is not the only signal). */
-.mark { font-size: 7px; margin-right: 3px; vertical-align: middle; }
 .in-progress {
   color: var(--pink);
   animation: blink 1s steps(2) infinite;
@@ -303,9 +300,11 @@ thead th.col-series { color: var(--shadow); }
 @keyframes blink { 50% { color: #ffd0c0; } }
 
 /* Pick cells */
+/* Outcome is signalled by typography too, not color alone: bonus is underlined,
+   a wrong pick is struck through. Renders cleanly in the pixel font. */
 .hit       { background: var(--yellow) !important; color: var(--shadow) !important; }
-.hit-bonus { background: var(--green) !important; color: var(--shadow) !important; font-weight: bold; }
-.miss      { background: var(--red-dark) !important; color: var(--white) !important; }
+.hit-bonus { background: var(--green) !important; color: var(--shadow) !important; font-weight: bold; text-decoration: underline; }
+.miss      { background: var(--red-dark) !important; color: var(--white) !important; text-decoration: line-through; }
 .pending   { color: var(--ice); }
 
 /* Scoring tables */
