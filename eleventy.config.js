@@ -3,6 +3,9 @@ export default async function (eleventyConfig) {
   // Pixel-art styles are served as-is.
   eleventyConfig.addPassthroughCopy('assets');
 
+  // GitHub Pages custom-domain marker; must land at the served root (_site/CNAME).
+  eleventyConfig.addPassthroughCopy('CNAME');
+
   // Rebuild when data or shared libs change (they are outside the input dir).
   eleventyConfig.addWatchTarget('./data/');
   eleventyConfig.addWatchTarget('./lib/');
