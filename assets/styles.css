@@ -305,9 +305,8 @@ thead th {
 tbody tr:nth-child(odd)  td { background: rgba(255,255,255,0.04); }
 tbody tr:nth-child(even) td { background: rgba(255,255,255,0.10); }
 .col-series { text-align: left; color: var(--ice); }
-/* The series/points headers sit on the yellow header bar: keep dark text there. */
+/* The series header sits on the yellow header bar: keep dark text there. */
 thead th.col-series { color: var(--shadow); }
-.col-result { color: var(--yellow); }
 .in-progress {
   color: var(--pink);
   animation: blink 1s steps(2) infinite;
@@ -315,22 +314,52 @@ thead th.col-series { color: var(--shadow); }
 /* Pulse via color, not opacity: opacity blending dropped contrast below 4.5:1. */
 @keyframes blink { 50% { color: #ffd0c0; } }
 
-/* Pick cells */
-/* Outcome is signalled by typography too, not color alone: bonus is underlined,
-   a wrong pick is struck through. Renders cleanly in the pixel font. */
-.hit       { background: var(--yellow) !important; color: var(--shadow) !important; }
-.hit-bonus { background: var(--green) !important; color: var(--shadow) !important; font-weight: bold; text-decoration: underline; }
-.miss      { background: var(--red-dark) !important; color: var(--white) !important; text-decoration: line-through; }
-.pending   { color: var(--ice); }
+/* Round tables: the series identity is a row-header pinned to the left so it
+   stays readable while the player columns scroll sideways on a phone. */
+.round-table .col-series {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  min-width: 96px;
+  background: var(--bg-alt);
+  box-shadow: 3px 0 0 var(--shadow); /* divider; border-collapse drops the cell border on sticky cells */
+}
+.round-table thead .col-series { z-index: 3; } /* top-left corner sits above both axes */
+.series-teams { display: block; color: var(--white); }
+.series-teams .vs { color: var(--ice); }
+.series-result {
+  display: block;
+  margin-top: 5px;
+  font-size: 8px;
+  color: var(--yellow);
+}
+.series-result.in-progress { color: var(--pink); }
 
-/* Scoring tables */
-.score-table td.num, .score-table th.num { font-family: 'Press Start 2P', monospace; }
-.score-table tfoot td {
+/* Round total footer */
+.round-table tfoot .col-series,
+.round-table tfoot .round-total {
   background: var(--blue-dark) !important;
   color: var(--yellow);
   font-weight: bold;
   border-top: 4px solid var(--yellow);
 }
+
+/* Pick cells */
+/* Outcome is signalled by typography too, not color alone: bonus is underlined,
+   a wrong pick is struck through. Renders cleanly in the pixel font. */
+.pick-team { display: block; }
+.pts-badge {
+  display: block;
+  margin-top: 5px;
+  font-size: 7px;
+  font-weight: normal;
+  text-decoration: none;
+  opacity: 0.8;
+}
+.hit       { background: var(--yellow) !important; color: var(--shadow) !important; }
+.hit-bonus { background: var(--green) !important; color: var(--shadow) !important; font-weight: bold; text-decoration: underline; }
+.miss      { background: var(--red-dark) !important; color: var(--white) !important; text-decoration: line-through; }
+.pending   { color: var(--ice); }
 
 /* Standings: arcade-style leaderboard */
 .standings {
@@ -443,6 +472,9 @@ thead th.col-series { color: var(--shadow); }
   h2 { font-size: 13px; }
 
   .panel { padding: 16px 12px; }
+
+  .round-table .col-series { min-width: 80px; }
+  .series-result { font-size: 7px; }
 
   .champion-banner { padding: 14px 10px; }
   .champion-banner .champ-team { font-size: 15px; }
