@@ -1,38 +1,16 @@
 {
-  "name": "y",
-  "version": "0.0.1",
-  "description": "Organize and score NHL playoff bracket",
-  "main": "index.js",
+  "name": "bracket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Retro static scoreboard for our annual NHL Stanley Cup playoff pick 'em, across every year we have data for.",
+  "type": "module",
   "scripts": {
-    "lint": "eslint ./src/**/*.mjs; prettier --check .",
-    "lint:fix": "prettier --write .",
-    "start:api": "micro",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "now-build": "npm run build"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "lodash": "4.17.21",
-    "micro": "9.3.4",
-    "react": "18.1.0",
-    "react-dom": "18.1.0",
-    "react-router-dom": "6.3.0",
-    "react-scripts": "5.0.1",
-    "yargs": "17.5.1"
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "serve": "eleventy --serve",
+    "verify": "node scripts/verify-data.mjs"
   },
   "devDependencies": {
-    "eslint-config-prettier": "8.5.0",
-    "eslint-plugin-prettier": "4.2.1",
-    "prettier": "2.8.8"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+    "@11ty/eleventy": "3.1.5"
+  }
 }

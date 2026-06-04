@@ -1,0 +1,639 @@
+{
+  "year": 2018,
+  "status": "complete",
+  "champion": "WSH",
+  "matchupsReconstructed": true,
+  "source": "github:tollmanz/bracket",
+  "rounds": [
+    {
+      "round": 1,
+      "name": "Round 1",
+      "series": [
+        {
+          "teams": [
+            "NSH",
+            "COL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "NSH",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "NSH",
+              "games": 4
+            },
+            {
+              "person": "john",
+              "team": "NSH",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "NSH",
+              "games": 4
+            },
+            {
+              "person": "nacin",
+              "team": "NSH",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "NSH",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "WPG",
+            "MIN"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "WPG",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "WPG",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "WPG",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "WPG",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "WPG",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "WPG",
+              "games": 5
+            }
+          ]
+        },
+        {
+          "teams": [
+            "VGK",
+            "LAK"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "SJS",
+            "ANA"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "SJS",
+            "games": 4
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "ANA",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "SJS",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "SJS",
+              "games": 7
+            },
+            {
+              "person": "nacin",
+              "team": "ANA",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "SJS",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "NJD"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TBL",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 5
+            },
+            {
+              "person": "nacin",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "TBL",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "BOS",
+            "TOR"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "BOS",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "BOS",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "TOR",
+              "games": 7
+            },
+            {
+              "person": "nacin",
+              "team": "BOS",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "TOR",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "WSH",
+            "CBJ"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "WSH",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "CBJ",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "WSH",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "PIT",
+            "PHI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "PIT",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "PHI",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "PIT",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "PIT",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "PIT",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "PIT",
+              "games": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 2,
+      "name": "Round 2",
+      "series": [
+        {
+          "teams": [
+            "WPG",
+            "NSH"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "WPG",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "NSH",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "NSH",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "NSH",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "NSH",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "WPG",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "NSH",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "VGK",
+            "SJS"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "SJS",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "nacin",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "VGK",
+              "games": 7
+            }
+          ]
+        },
+        {
+          "teams": [
+            "TBL",
+            "BOS"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "TBL",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 7
+            },
+            {
+              "person": "nacin",
+              "team": "TBL",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "TBL",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "TBL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "WSH",
+            "PIT"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "WSH",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "PIT",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "PIT",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "PIT",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "PIT",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "WSH",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 3,
+      "name": "Conference Finals",
+      "series": [
+        {
+          "teams": [
+            "VGK",
+            "WPG"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "WPG",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "nacin",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "jonathan",
+              "team": "WPG",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "WSH",
+            "TBL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "WSH",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "TBL",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "aaron",
+              "team": "TBL",
+              "games": 7
+            },
+            {
+              "person": "nacin",
+              "team": "WSH",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "TBL",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "round": 4,
+      "name": "Stanley Cup Final",
+      "series": [
+        {
+          "teams": [
+            "WSH",
+            "VGK"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "WSH",
+            "games": 5
+          },
+          "picks": [
+            {
+              "person": "flynn",
+              "team": "WSH",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 5
+            },
+            {
+              "person": "aaron",
+              "team": "VGK",
+              "games": 4
+            },
+            {
+              "person": "nacin",
+              "team": "VGK",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "VGK",
+              "games": 6
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "note": "Reconstructed all four rounds. Winners and game counts taken verbatim from the ground-truth results file; Wikipedia used only to identify losing opponents. Team codes normalized (WAS->WSH, TB->TBL, CAL->CGY)."
+}

@@ -1,0 +1,40 @@
+{
+  "defaultYear": 2026,
+  "years": [
+    {
+      "year": 2026,
+      "status": "in-progress",
+      "champion": null
+    },
+    {
+      "year": 2025,
+      "status": "complete",
+      "champion": "FLA"
+    },
+    {
+      "year": 2022,
+      "status": "in-progress",
+      "champion": null
+    },
+    {
+      "year": 2021,
+      "status": "complete",
+      "champion": "TBL"
+    },
+    {
+      "year": 2020,
+      "status": "complete",
+      "champion": "TBL"
+    },
+    {
+      "year": 2019,
+      "status": "complete",
+      "champion": "STL"
+    },
+    {
+      "year": 2018,
+      "status": "complete",
+      "champion": "WSH"
+    }
+  ]
+}
