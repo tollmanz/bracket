@@ -47,6 +47,16 @@ Notes:
 | 1   | COL vs VGK | VGK 4       | COL 5 | VGK 7 | COL 7    | COL 5 | COL 6 |
 | 2   | CAR vs MTL | CAR 5       | CAR 6 | CAR 6 | MTL 6    | CAR 5 | MTL 7 |
 
+## Round 4
+
+| #   | Series     | Result      | Zack  | John  | Jonathan | Flynn | Aaron |
+| --- | ---------- | ----------- | ----- | ----- | -------- | ----- | ----- |
+| 1   | CAR vs VGK | in progress | CAR 6 | VGK 6 | CAR 7    | CAR 6 | CAR 5 |
+
+Notes:
+
+- Picks trickled in over the thread: John VGK 6 (2026-05-30), Flynn CAR 6 (2026-05-30), Zack CAR 6 (2026-05-31), Jonathan CAR 7 (2026-06-01), Aaron CAR 5 (2026-06-02).
+
 ## Scoring
 
 Scoring per `rules.md`: correct team earns base points (Round 1: 1, Round 2: 3, Round 3: 5), with a +2 bonus for also nailing the number of games. Wrong team = 0. Series in progress are not yet scored.

@@ -569,7 +569,33 @@
             "winner": null,
             "games": null
           },
-          "picks": []
+          "picks": [
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "CAR",
+              "games": 7
+            },
+            {
+              "person": "flynn",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "aaron",
+              "team": "CAR",
+              "games": 5
+            }
+          ]
         }
       ]
     }
