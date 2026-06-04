@@ -23,6 +23,7 @@ html, body {
   line-height: 1.6;
   image-rendering: pixelated;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 /* Decorative scanline texture, kept off the contrast path (not an ancestor of text). */
 body::before {
@@ -269,6 +270,21 @@ h3 {
 }
 
 /* Tables */
+/* Wide pick/score tables can exceed a phone's width; this wrapper keeps the
+   overflow local (the table scrolls sideways) instead of widening the page and
+   clipping the header, banners, and panels. */
+.table-wrap {
+  position: relative; /* contain absolutely-positioned .sr-only cells so they scroll here, not widen the page */
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--yellow) var(--bg);
+}
+.table-wrap table { margin-bottom: 0; }
+.table-wrap::-webkit-scrollbar { height: 8px; }
+.table-wrap::-webkit-scrollbar-track { background: var(--bg); }
+.table-wrap::-webkit-scrollbar-thumb { background: var(--yellow); }
 table {
   width: 100%;
   border-collapse: collapse;
@@ -402,20 +418,56 @@ thead th.col-series { color: var(--shadow); }
 .loading { text-align: center; padding: 48px; color: var(--ice); }
 
 @media (max-width: 720px) {
-  h1 { font-size: 18px; }
   body { padding: 16px 8px 48px; font-size: 9px; }
   table { font-size: 8px; }
   th, td { padding: 6px 4px; }
+
+  /* Hero: title on its own full-width line, skaters shrunk and wrapped below,
+     so "BRACKET 2026" never collides with the artwork or runs off-screen. */
+  .hero { gap: 12px 20px; padding: 24px 0 12px; }
+  .hero-title { order: -1; flex-basis: 100%; }
+  .hero-art svg { width: 64px; height: 80px; }
+
+  /* Lighter pixel shadow + tighter tracking keeps the big title inside the
+     viewport on narrow screens. */
+  h1 {
+    font-size: 18px;
+    letter-spacing: 0;
+    text-shadow:
+      3px 0 var(--red), -3px 0 var(--red),
+      0 3px var(--red), 0 -3px var(--red),
+      3px 3px var(--red), -3px -3px var(--red),
+      3px -3px var(--red), -3px 3px var(--red),
+      5px 5px var(--shadow);
+  }
+  h2 { font-size: 13px; }
+
+  .panel { padding: 16px 12px; }
+
+  .champion-banner { padding: 14px 10px; }
+  .champion-banner .champ-team { font-size: 15px; }
+  .champion-banner .cup,
+  .champion-banner .champ-winner { font-size: 9px; }
+
   .standings li {
-    grid-template-columns: 40px 24px 1fr auto;
+    grid-template-columns: 32px 24px 1fr auto;
     grid-template-areas:
       "rank sprite name   total"
       "rank sprite rounds rounds";
+    gap: 8px;
+    padding: 12px 10px;
     font-size: 9px;
   }
-  .standings .rank-num { grid-area: rank; }
+  .standings .rank-num { grid-area: rank; font-size: 15px; }
   .standings .sprite   { grid-area: sprite; }
   .standings .name     { grid-area: name; }
-  .standings .total    { grid-area: total; }
-  .standings .rounds   { grid-area: rounds; justify-content: flex-start; }
+  .standings .total    { grid-area: total; font-size: 13px; }
+  .standings .rounds   { grid-area: rounds; justify-content: flex-start; margin-top: 6px; }
+}
+
+@media (max-width: 420px) {
+  h1 { font-size: 15px; }
+  h2 { font-size: 11px; }
+  .hero-art svg { width: 52px; height: 65px; }
+  .champion-banner .champ-team { font-size: 13px; }
 }
