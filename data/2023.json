@@ -1,7 +1,7 @@
 {
-  "year": 2022,
+  "year": 2023,
   "status": "complete",
-  "champion": "COL",
+  "champion": "VGK",
   "matchupsReconstructed": false,
   "source": "hockeypool CSV export (John Hawkins)",
   "rounds": [
@@ -11,44 +11,145 @@
       "series": [
         {
           "teams": [
-            "FLA",
-            "WSH"
+            "BOS",
+            "FLA"
           ],
           "result": {
             "status": "final",
             "winner": "FLA",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "aaron",
+              "team": "BOS",
+              "games": 4
+            },
+            {
+              "person": "cklosowski",
+              "team": "BOS",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "BOS",
+              "games": 5
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "BOS",
+              "games": 4
+            },
+            {
+              "person": "flynn",
+              "team": "BOS",
+              "games": 5
+            },
+            {
+              "person": "zack",
+              "team": "BOS",
+              "games": 5
+            },
+            {
+              "person": "john",
+              "team": "BOS",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "CAR",
+            "NYI"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "CAR",
             "games": 6
           },
           "picks": [
             {
               "person": "aaron",
-              "team": "FLA",
-              "games": 5
+              "team": "NYI",
+              "games": 7
             },
             {
               "person": "cklosowski",
-              "team": "FLA",
-              "games": 5
+              "team": "CAR",
+              "games": 6
             },
             {
               "person": "jonathan",
-              "team": "FLA",
+              "team": "CAR",
+              "games": 4
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "CAR",
               "games": 6
             },
             {
               "person": "flynn",
-              "team": "FLA",
-              "games": 5
+              "team": "NYI",
+              "games": 7
             },
             {
               "person": "zack",
-              "team": "FLA",
+              "team": "CAR",
               "games": 4
             },
             {
               "person": "john",
-              "team": "FLA",
+              "team": "CAR",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "NJD",
+            "NYR"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "NJD",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "aaron",
+              "team": "NYR",
               "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "NYR",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "NJD",
+              "games": 7
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "NYR",
+              "games": 5
+            },
+            {
+              "person": "flynn",
+              "team": "NYR",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "NJD",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "NJD",
+              "games": 7
             }
           ]
         },
@@ -59,24 +160,29 @@
           ],
           "result": {
             "status": "final",
-            "winner": "TBL",
-            "games": 7
+            "winner": "TOR",
+            "games": 6
           },
           "picks": [
             {
               "person": "aaron",
+              "team": "TOR",
+              "games": 5
+            },
+            {
+              "person": "cklosowski",
               "team": "TBL",
               "games": 4
             },
             {
-              "person": "cklosowski",
-              "team": "TBL",
-              "games": 5
+              "person": "jonathan",
+              "team": "TOR",
+              "games": 6
             },
             {
-              "person": "jonathan",
-              "team": "TBL",
-              "games": 6
+              "person": "nerdybyproxy",
+              "team": "TOR",
+              "games": 7
             },
             {
               "person": "flynn",
@@ -90,223 +196,152 @@
             },
             {
               "person": "john",
-              "team": "TOR",
-              "games": 7
+              "team": "TBL",
+              "games": 6
             }
           ]
         },
         {
           "teams": [
-            "CAR",
-            "BOS"
+            "VGK",
+            "WPG"
           ],
           "result": {
             "status": "final",
-            "winner": "CAR",
-            "games": 7
+            "winner": "VGK",
+            "games": 5
           },
           "picks": [
             {
               "person": "aaron",
-              "team": "CAR",
-              "games": 6
+              "team": "VGK",
+              "games": 5
             },
             {
               "person": "cklosowski",
-              "team": "CAR",
+              "team": "WPG",
               "games": 5
             },
             {
               "person": "jonathan",
-              "team": "CAR",
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "VGK",
               "games": 6
             },
             {
               "person": "flynn",
-              "team": "CAR",
+              "team": "WPG",
               "games": 7
             },
             {
               "person": "zack",
-              "team": "CAR",
-              "games": 7
+              "team": "VGK",
+              "games": 5
             },
             {
               "person": "john",
-              "team": "CAR",
-              "games": 5
-            }
-          ]
-        },
-        {
-          "teams": [
-            "NYR",
-            "PIT"
-          ],
-          "result": {
-            "status": "final",
-            "winner": "NYR",
-            "games": 7
-          },
-          "picks": [
-            {
-              "person": "aaron",
-              "team": "PIT",
-              "games": 7
-            },
-            {
-              "person": "cklosowski",
-              "team": "NYR",
-              "games": 6
-            },
-            {
-              "person": "jonathan",
-              "team": "NYR",
-              "games": 5
-            },
-            {
-              "person": "flynn",
-              "team": "PIT",
-              "games": 6
-            },
-            {
-              "person": "zack",
-              "team": "PIT",
-              "games": 6
-            },
-            {
-              "person": "john",
-              "team": "NYR",
-              "games": 5
+              "team": "VGK",
+              "games": 4
             }
           ]
         },
         {
           "teams": [
             "COL",
-            "NSH"
+            "SEA"
           ],
           "result": {
             "status": "final",
-            "winner": "COL",
-            "games": 4
-          },
-          "picks": [
-            {
-              "person": "aaron",
-              "team": "COL",
-              "games": 5
-            },
-            {
-              "person": "cklosowski",
-              "team": "COL",
-              "games": 6
-            },
-            {
-              "person": "jonathan",
-              "team": "COL",
-              "games": 5
-            },
-            {
-              "person": "flynn",
-              "team": "COL",
-              "games": 4
-            },
-            {
-              "person": "zack",
-              "team": "COL",
-              "games": 5
-            },
-            {
-              "person": "john",
-              "team": "COL",
-              "games": 6
-            }
-          ]
-        },
-        {
-          "teams": [
-            "MIN",
-            "STL"
-          ],
-          "result": {
-            "status": "final",
-            "winner": "STL",
-            "games": 6
-          },
-          "picks": [
-            {
-              "person": "aaron",
-              "team": "MIN",
-              "games": 6
-            },
-            {
-              "person": "cklosowski",
-              "team": "STL",
-              "games": 6
-            },
-            {
-              "person": "jonathan",
-              "team": "STL",
-              "games": 5
-            },
-            {
-              "person": "flynn",
-              "team": "MIN",
-              "games": 5
-            },
-            {
-              "person": "zack",
-              "team": "STL",
-              "games": 6
-            },
-            {
-              "person": "john",
-              "team": "MIN",
-              "games": 6
-            }
-          ]
-        },
-        {
-          "teams": [
-            "CGY",
-            "DAL"
-          ],
-          "result": {
-            "status": "final",
-            "winner": "CGY",
+            "winner": "SEA",
             "games": 7
           },
           "picks": [
             {
               "person": "aaron",
-              "team": "CGY",
+              "team": "COL",
               "games": 6
             },
             {
               "person": "cklosowski",
-              "team": "CGY",
-              "games": 4
+              "team": "COL",
+              "games": 5
             },
             {
               "person": "jonathan",
-              "team": "CGY",
-              "games": 6
+              "team": "COL",
+              "games": 5
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "COL",
+              "games": 5
             },
             {
               "person": "flynn",
-              "team": "CGY",
+              "team": "COL",
               "games": 5
             },
             {
               "person": "zack",
-              "team": "CGY",
+              "team": "COL",
               "games": 6
             },
             {
               "person": "john",
-              "team": "CGY",
+              "team": "COL",
+              "games": 4
+            }
+          ]
+        },
+        {
+          "teams": [
+            "DAL",
+            "MIN"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "DAL",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "aaron",
+              "team": "DAL",
               "games": 7
+            },
+            {
+              "person": "cklosowski",
+              "team": "MIN",
+              "games": 5
+            },
+            {
+              "person": "jonathan",
+              "team": "DAL",
+              "games": 7
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "DAL",
+              "games": 7
+            },
+            {
+              "person": "flynn",
+              "team": "DAL",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "MIN",
+              "games": 7
+            },
+            {
+              "person": "john",
+              "team": "DAL",
+              "games": 6
             }
           ]
         },
@@ -318,23 +353,28 @@
           "result": {
             "status": "final",
             "winner": "EDM",
-            "games": 7
+            "games": 6
           },
           "picks": [
             {
               "person": "aaron",
               "team": "EDM",
-              "games": 4
+              "games": 5
             },
             {
               "person": "cklosowski",
               "team": "EDM",
-              "games": 5
+              "games": 6
             },
             {
               "person": "jonathan",
               "team": "EDM",
-              "games": 4
+              "games": 6
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "EDM",
+              "games": 6
             },
             {
               "person": "flynn",
@@ -343,13 +383,13 @@
             },
             {
               "person": "zack",
-              "team": "LAK",
-              "games": 7
+              "team": "EDM",
+              "games": 6
             },
             {
               "person": "john",
               "team": "EDM",
-              "games": 5
+              "games": 7
             }
           ]
         }
@@ -362,33 +402,38 @@
         {
           "teams": [
             "FLA",
-            "TBL"
+            "TOR"
           ],
           "result": {
             "status": "final",
-            "winner": "TBL",
-            "games": 4
+            "winner": "FLA",
+            "games": 5
           },
           "picks": [
             {
               "person": "aaron",
-              "team": "TBL",
+              "team": "TOR",
               "games": 6
             },
             {
               "person": "cklosowski",
-              "team": "FLA",
-              "games": 6
+              "team": "TOR",
+              "games": 5
             },
             {
               "person": "jonathan",
-              "team": "FLA",
+              "team": "TOR",
+              "games": 6
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "TOR",
               "games": 7
             },
             {
               "person": "flynn",
-              "team": "TBL",
-              "games": 7
+              "team": "TOR",
+              "games": 5
             },
             {
               "person": "zack",
@@ -398,136 +443,151 @@
             {
               "person": "john",
               "team": "FLA",
-              "games": 6
+              "games": 5
             }
           ]
         },
         {
           "teams": [
             "CAR",
-            "NYR"
+            "NJD"
           ],
           "result": {
             "status": "final",
-            "winner": "NYR",
-            "games": 7
-          },
-          "picks": [
-            {
-              "person": "aaron",
-              "team": "CAR",
-              "games": 6
-            },
-            {
-              "person": "cklosowski",
-              "team": "CAR",
-              "games": 6
-            },
-            {
-              "person": "jonathan",
-              "team": "CAR",
-              "games": 5
-            },
-            {
-              "person": "flynn",
-              "team": "CAR",
-              "games": 6
-            },
-            {
-              "person": "zack",
-              "team": "CAR",
-              "games": 6
-            },
-            {
-              "person": "john",
-              "team": "CAR",
-              "games": 7
-            }
-          ]
-        },
-        {
-          "teams": [
-            "COL",
-            "STL"
-          ],
-          "result": {
-            "status": "final",
-            "winner": "COL",
-            "games": 6
-          },
-          "picks": [
-            {
-              "person": "aaron",
-              "team": "COL",
-              "games": 6
-            },
-            {
-              "person": "cklosowski",
-              "team": "COL",
-              "games": 5
-            },
-            {
-              "person": "jonathan",
-              "team": "COL",
-              "games": 6
-            },
-            {
-              "person": "flynn",
-              "team": "COL",
-              "games": 6
-            },
-            {
-              "person": "zack",
-              "team": "COL",
-              "games": 6
-            },
-            {
-              "person": "john",
-              "team": "COL",
-              "games": 6
-            }
-          ]
-        },
-        {
-          "teams": [
-            "CGY",
-            "EDM"
-          ],
-          "result": {
-            "status": "final",
-            "winner": "EDM",
+            "winner": "CAR",
             "games": 5
           },
           "picks": [
             {
               "person": "aaron",
-              "team": "CGY",
+              "team": "NJD",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "CAR",
+              "games": 7
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "flynn",
+              "team": "NJD",
+              "games": 6
+            },
+            {
+              "person": "zack",
+              "team": "CAR",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "NJD",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "SEA",
+            "DAL"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "DAL",
+            "games": 7
+          },
+          "picks": [
+            {
+              "person": "aaron",
+              "team": "SEA",
+              "games": 6
+            },
+            {
+              "person": "cklosowski",
+              "team": "SEA",
+              "games": 6
+            },
+            {
+              "person": "jonathan",
+              "team": "SEA",
+              "games": 7
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "DAL",
+              "games": 5
+            },
+            {
+              "person": "flynn",
+              "team": "DAL",
+              "games": 7
+            },
+            {
+              "person": "zack",
+              "team": "SEA",
+              "games": 6
+            },
+            {
+              "person": "john",
+              "team": "DAL",
+              "games": 6
+            }
+          ]
+        },
+        {
+          "teams": [
+            "VGK",
+            "EDM"
+          ],
+          "result": {
+            "status": "final",
+            "winner": "VGK",
+            "games": 6
+          },
+          "picks": [
+            {
+              "person": "aaron",
+              "team": "EDM",
               "games": 7
             },
             {
               "person": "cklosowski",
               "team": "EDM",
-              "games": 7
+              "games": 5
             },
             {
               "person": "jonathan",
               "team": "EDM",
-              "games": 7
+              "games": 6
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "EDM",
+              "games": 6
             },
             {
               "person": "flynn",
-              "team": "CGY",
+              "team": "EDM",
               "games": 6
             },
             {
               "person": "zack",
               "team": "EDM",
-              "games": 7
+              "games": 5
             },
             {
               "person": "john",
-              "team": "CGY",
-              "games": 6
+              "team": "VGK",
+              "games": 7
             }
           ]
         }
@@ -539,87 +599,87 @@
       "series": [
         {
           "teams": [
-            "NYR",
-            "TBL"
+            "CAR",
+            "FLA"
           ],
           "result": {
             "status": "final",
-            "winner": "TBL",
-            "games": 6
+            "winner": "FLA",
+            "games": 4
           },
           "picks": [
             {
-              "person": "aaron",
-              "team": "TBL",
-              "games": 6
-            },
-            {
               "person": "cklosowski",
-              "team": "TBL",
+              "team": "CAR",
               "games": 5
             },
             {
               "person": "jonathan",
-              "team": "TBL",
+              "team": "CAR",
               "games": 6
             },
             {
+              "person": "nerdybyproxy",
+              "team": "FLA",
+              "games": 7
+            },
+            {
               "person": "flynn",
-              "team": "TBL",
-              "games": 5
+              "team": "FLA",
+              "games": 6
             },
             {
               "person": "zack",
-              "team": "TBL",
+              "team": "FLA",
               "games": 6
             },
             {
               "person": "john",
-              "team": "TBL",
-              "games": 6
+              "team": "CAR",
+              "games": 7
             }
           ]
         },
         {
           "teams": [
-            "COL",
-            "EDM"
+            "VGK",
+            "DAL"
           ],
           "result": {
             "status": "final",
-            "winner": "COL",
-            "games": 4
+            "winner": "VGK",
+            "games": 6
           },
           "picks": [
             {
-              "person": "aaron",
-              "team": "EDM",
-              "games": 7
-            },
-            {
               "person": "cklosowski",
-              "team": "EDM",
+              "team": "VGK",
               "games": 6
             },
             {
               "person": "jonathan",
-              "team": "EDM",
-              "games": 7
+              "team": "VGK",
+              "games": 6
+            },
+            {
+              "person": "nerdybyproxy",
+              "team": "VGK",
+              "games": 6
             },
             {
               "person": "flynn",
-              "team": "COL",
-              "games": 7
+              "team": "DAL",
+              "games": 6
             },
             {
               "person": "zack",
-              "team": "COL",
+              "team": "VGK",
               "games": 7
             },
             {
               "person": "john",
-              "team": "EDM",
-              "games": 7
+              "team": "VGK",
+              "games": 6
             }
           ]
         }
@@ -631,44 +691,39 @@
       "series": [
         {
           "teams": [
-            "COL",
-            "TBL"
+            "VGK",
+            "FLA"
           ],
           "result": {
             "status": "final",
-            "winner": "COL",
-            "games": 6
+            "winner": "VGK",
+            "games": 5
           },
           "picks": [
             {
-              "person": "aaron",
-              "team": "COL",
-              "games": 6
-            },
-            {
               "person": "cklosowski",
-              "team": "COL",
+              "team": "VGK",
               "games": 5
             },
             {
               "person": "jonathan",
-              "team": "TBL",
+              "team": "VGK",
               "games": 7
             },
             {
-              "person": "flynn",
-              "team": "COL",
-              "games": 6
+              "person": "nerdybyproxy",
+              "team": "VGK",
+              "games": 5
             },
             {
               "person": "zack",
-              "team": "COL",
+              "team": "FLA",
               "games": 6
             },
             {
               "person": "john",
-              "team": "COL",
-              "games": 7
+              "team": "VGK",
+              "games": 6
             }
           ]
         }

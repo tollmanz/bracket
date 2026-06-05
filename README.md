@@ -63,7 +63,7 @@ Year files store facts only. Points and standings are computed from `rules.json`
   "year": 2026,
   "status": "in-progress",        // or "complete"
   "champion": "VGK",              // final winner, null while in progress
-  "matchupsReconstructed": false, // true for 2018-2022 (opponents recovered via research)
+  "matchupsReconstructed": false, // true for 2018-2021 (opponents recovered via research)
   "source": "...",
   "rounds": [
     {
@@ -110,12 +110,17 @@ Eleventy's `pathPrefix` and use the `url` filter.
 
 - 2026: the current season's picks
 - 2025: the `Projects/picks` markdown pool
-- 2018-2022: the original `tollmanz/bracket` repo. Those files recorded only the winning
+- 2022-2024: John Hawkins's hockeypool CSV export, which records both teams, every pick,
+  and the actual result per series. Matchups are authoritative (not reconstructed). This
+  replaced the earlier partial 2022 reconstruction, which covered only rounds 1 and 2.
+- 2018-2021: the original `tollmanz/bracket` repo. Those files recorded only the winning
   team and game count per round, so series opponents were reconstructed from historical
   playoff results and verified against the recorded winners and the known Stanley Cup
-  champion. 2022 source data covers only rounds 1 and 2.
+  champion.
 
 `@TTollman` (Tyler Tollman) appears only in 2019-2020, and `@thoronas` is Flynn O'Connor
-under an old handle (merged into `flynn`). The remaining early-years handles `@nacin`,
-`@brothernacin`, `@fathernacin`, `@cklosowski` are stored under their handle; edit
-`data/people.json` to give them a display name.
+under an old handle (merged into `flynn`). `@NerdyByProxy` joined in 2023-2024; `@ThomasKnoll`
+registered for 2024 but submitted no picks, so he holds no series and does not appear.
+The remaining early-years handles `@nacin`, `@brothernacin`, `@fathernacin`, `@cklosowski`
+and `@NerdyByProxy` are stored under their handle; edit `data/people.json` to give them a
+display name.

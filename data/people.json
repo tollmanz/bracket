@@ -13,6 +13,9 @@
     "emailHash": "9c5813f24d1c3617dc92c4020fd4c55eba140ccc61cb68eed77b711819d048ee",
     "aliases": [
       "@vegasgeek",
+      "@VegasGeek",
+      "@VegasGeeek",
+      "VegasGeek",
       "John Hawkins",
       "John"
     ]
@@ -46,6 +49,12 @@
       "@aaronjorbin",
       "Aaron Jorbin",
       "Aaron"
+    ]
+  },
+  "nerdybyproxy": {
+    "name": "@NerdyByProxy",
+    "aliases": [
+      "@NerdyByProxy"
     ]
   },
   "nacin": {
