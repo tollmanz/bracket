@@ -12,6 +12,9 @@ const readJSON = async (p) => JSON.parse(await readFile(path.join(dataDir, p), '
 
 // Documented final standings (person id -> total) we are confident about.
 const DOCUMENTED = {
+  2022: { zack: 38, flynn: 36, aaron: 30, john: 29, cklosowski: 28, jonathan: 25 },
+  2023: { nerdybyproxy: 36, john: 34, jonathan: 29, cklosowski: 25, zack: 25, flynn: 17, aaron: 6 },
+  2024: { john: 38, nerdybyproxy: 37, flynn: 32, zack: 31, jonathan: 24, aaron: 20, cklosowski: 9 },
   2025: { aaron: 37, jonathan: 32, zack: 31, john: 27, flynn: 23 },
   2026: { john: 39, zack: 27, flynn: 26, jonathan: 19, aaron: 12 },
 };
